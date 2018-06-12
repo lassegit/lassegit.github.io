@@ -190,7 +190,7 @@ export default class IndexPage extends Component {
               using ReactJS and GraphQL:
             </p>
             <p>
-              <img src={gitdude} alt="Gitdude screenshot" />
+              <img src={gitdude} className="portfolio-image" alt="Gitdude screenshot" />
             </p>
           </div>
         </div>

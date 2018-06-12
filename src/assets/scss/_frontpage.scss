@@ -85,24 +85,6 @@
   }
 }
 
-.portfolio {
-  .portfolio-title {
-    font-weight: normal;
-    font-family: $font-bold;
-  }
-
-  .portfolio-image {
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: 5px;
-  }
-
-  .portfolio-text {
-    font-weight: normal;
-    font-family: $font-normal;
-  }
-
-  .portfolio-external {
-    vertical-align: middle;
-  }
+.portfolio-image {
+  border-radius: 5px;
 }

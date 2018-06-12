@@ -36,3 +36,7 @@
 .blog-post code.language-text {
   white-space: pre-line;
 }
+
+pre[class*="language-"] {
+  border-radius: 5px;
+}
