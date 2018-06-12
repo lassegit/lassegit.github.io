@@ -1,5 +1,5 @@
 ---
-path: "/gatsby-and-react-static"
+path: "/gatsby-and-react-static/"
 date: "2018-06-12"
 title: "Gatsby and React-static"
 tags: ["gatsby", "react-static", "react"]
