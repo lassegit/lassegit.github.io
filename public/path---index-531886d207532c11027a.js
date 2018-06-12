@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{332:function(t,e){t.exports={data:{site:{siteMetadata:{title:"lasse.tech",description:"Writing about technology and society from Berlin."}}},pathContext:{}}}});
+//# sourceMappingURL=path---index-531886d207532c11027a.js.map
