@@ -31,7 +31,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && gh-pages -b master -d public"
+    "deploy": "gatsby build && cp CNAME public/ && gh-pages -b master -d public"
   },
   "devDependencies": {
     "gh-pages": "^1.2.0",
