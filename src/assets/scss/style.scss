@@ -1,0 +1,33 @@
+@import '../../../node_modules/node-normalize-scss/_normalize.scss';
+@import 'vars';
+@import 'header';
+@import 'frontpage';
+@import 'post';
+@import 'font';
+@import 'typo';
+@import 'prism';
+
+body {
+  background: #f2f2f2;
+  color: $text-color;
+  font-family: $font-normal;
+  line-height: 1.5;
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.footer {
+  padding: 15px 0;
+  margin-top: 50px;
+}
+
+.gatsby-resp-image-link {
+  border: 0;
+}
