@@ -4,6 +4,7 @@ module.exports = {
     description: 'Writing about technology and society from Berlin.',
     siteUrl: 'https://lasse.tech',
   },
+  pathPrefix: '/',
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
