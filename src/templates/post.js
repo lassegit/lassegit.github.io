@@ -10,6 +10,7 @@ export default function Template({ data }) {
   const { frontmatter, html } = markdownRemark
   const tags = frontmatter.tags
   const title = `${frontmatter.title} | ${data.site.siteMetadata.title}`
+  const link = `${data.site.siteMetadata.siteUrl}${frontmatter.path}`
 
   return (
     <div className="blog-post-container">
@@ -20,7 +21,7 @@ export default function Template({ data }) {
           {frontmatter.date} &mdash;{' '}
           <ShareOnTwitter
             className="blog-post__twitter"
-            link={window.location.href}
+            link={link}
             text={frontmatter.title}
           />
         </p>
@@ -61,7 +62,8 @@ export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     site {
       siteMetadata {
-        title
+        title,
+        siteUrl
       }
     }
     markdownRemark(frontmatter: { path: { eq: $path } }) {
