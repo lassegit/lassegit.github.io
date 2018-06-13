@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import rss from '../assets/svg/rss.svg'
+import twitter from '../assets/svg/twitter.svg'
 
 export default function Template({ data }) {
   const { markdownRemark } = data
@@ -33,8 +34,14 @@ export default function Template({ data }) {
         ) : null}
         <p>
           <a href="/rss.xml">
-            <i>Stay updated with rss: </i>{' '}
-            <img src={rss} height="12px" width="12px" />
+            <i>Stay updated with RSS:</i>{' '}
+            <img src={rss} height="14px" width="14px" />
+          </a>
+        </p>
+        <p>
+          <a href="https://twitter.com/intent/follow?screen_name=lasse_tech">
+            <i>Follow me on Twitter:</i>{' '}
+            <img src={twitter} height="14px" width="14px" />
           </a>
         </p>
       </div>
