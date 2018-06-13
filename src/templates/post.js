@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
+import ShareOnTwitter from '../components/ShareOnTwitter'
 import rss from '../assets/svg/rss.svg'
 import twitter from '../assets/svg/twitter.svg'
 
@@ -15,7 +16,14 @@ export default function Template({ data }) {
       <Helmet title={title} />
       <div className="blog-post">
         <h1 className="blog-post__title">{frontmatter.title}</h1>
-        <p className="blog-post__date">{frontmatter.date}</p>
+        <p className="blog-post__date">
+          {frontmatter.date} &mdash;{' '}
+          <ShareOnTwitter
+            className="blog-post__twitter"
+            link={window.location.href}
+            text={frontmatter.title}
+          />
+        </p>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -35,13 +43,13 @@ export default function Template({ data }) {
         <p>
           <a href="/rss.xml">
             <i>Stay updated with RSS:</i>{' '}
-            <img src={rss} height="14px" width="14px" />
+            <img src={rss} height="13px" width="13px" />
           </a>
         </p>
         <p>
           <a href="https://twitter.com/intent/follow?screen_name=lasse_tech">
             <i>Follow me on Twitter:</i>{' '}
-            <img src={twitter} height="14px" width="14px" />
+            <img src={twitter} height="13px" width="13px" />
           </a>
         </p>
       </div>

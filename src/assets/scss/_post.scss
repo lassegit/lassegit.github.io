@@ -17,6 +17,16 @@
   font-size: 14px;
 }
 
+.blog-post__twitter {
+  font-family: $font-italic;
+  border: 0;
+
+  img {
+    height: 11px;
+    width: 11px;
+  }
+}
+
 .blog-post__footer {
   border-top: 1px solid #ddd;
   padding: 15px 0 0 0;
@@ -37,6 +47,6 @@
   white-space: pre-line;
 }
 
-pre[class*="language-"] {
+pre[class*='language-'] {
   border-radius: 5px;
 }
