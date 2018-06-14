@@ -5,9 +5,9 @@ title: "Gatsby and React-static"
 tags: ["gatsby", "react-static", "react"]
 ---
 
-I have been wanting to start a blog for a while now. But I haven't come much further than writing incomplete pieces of text and researching which blogging tool is the best. It is properly a necessary detour that allows your brain to structure and formulate your thoughts into communicable formats. Writing is fundamentally a different exercise than the its precursor – reading – and it takes effort and will accomplish it. 
+I have been wanting to start a blog for a while now. But I haven't come much further than writing incomplete pieces of text and researching which blogging tool is the best. It is properly a necessary detour that allows your brain to structure and formulate your thoughts into communicable formats. Writing is fundamentally a different exercise than its precursor – reading – and it takes effort and will to accomplish it. 
 
-A static React site generator seems for me to be the best blogging tool available. It leverages technologies I know, is easy customizable and simplistic. They have the best performance and scalability of any blogging tool and that is while being free. For users with a Git work flow usability is excellent, I can write my blog posts in my favorite editor (Sublime), view it locally and deploy from the command line. You can write with minimal amount of distraction.
+Static React site generators are for me the optimal blogging tool. It leverages technologies I know, is easily customizable and simple. They have the best performance and scalability of any blogging tool and that is while being free. For users with a Git work flow usability is excellent, I can write my blog posts in my favorite editor (Sublime), view it locally and deploy from the command line. You can write with minimal amount of distraction.
 
 The most prominent static React generators are Gatsby and React-static. Both use React and share enough similarities to be considered competitors. In practical use, they differ considerable which is a deliberate choice and this is reflected in the default file structure of both.
 
