@@ -29,12 +29,16 @@
       "path---tags-gatsby-a2c8f1d309d2e0e46c4e.js.map"
     ],
     "path---posts": [
-      "path---posts-b44acddd0910d0ab9d16.js",
-      "path---posts-b44acddd0910d0ab9d16.js.map"
+      "path---posts-3db0471220a3fa7beaa2.js",
+      "path---posts-3db0471220a3fa7beaa2.js.map"
     ],
     "path---index": [
       "path---index-531886d207532c11027a.js",
       "path---index-531886d207532c11027a.js.map"
+    ],
+    "path---tags-sublime": [
+      "path---tags-sublime-92510dace01ac33d5553.js",
+      "path---tags-sublime-92510dace01ac33d5553.js.map"
     ],
     "path---gatsby-and-react-static": [
       "path---gatsby-and-react-static-f49b4f64ed820b4d1fd2.js",
@@ -52,13 +56,17 @@
       "path---404-html-66a4e3a7f19e9a5419b0.js",
       "path---404-html-66a4e3a7f19e9a5419b0.js.map"
     ],
+    "path---my-sublime-shortcuts-settings-and-packages": [
+      "path---my-sublime-shortcuts-settings-and-packages-1fecdbc1fafe0e9c5211.js",
+      "path---my-sublime-shortcuts-settings-and-packages-1fecdbc1fafe0e9c5211.js.map"
+    ],
     "component---src-templates-post-js": [
       "component---src-templates-post-js-b2354bd856a0c32f2bf5.js",
       "component---src-templates-post-js-b2354bd856a0c32f2bf5.js.map"
     ],
     "app": [
-      "app-9897a6fe951283aa0449.js",
-      "app-9897a6fe951283aa0449.js.map"
+      "app-14acac878e3188f1259a.js",
+      "app-14acac878e3188f1259a.js.map"
     ],
     "path---404": [
       "path---404-66a4e3a7f19e9a5419b0.js",
