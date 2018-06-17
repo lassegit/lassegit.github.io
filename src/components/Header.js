@@ -12,9 +12,6 @@ export default class Header extends Component {
           <li className="header-menu__li">
             <Link to="/posts/">posts</Link>
           </li>
-          <li className="header-menu__li">
-            <Link to="/">about</Link>
-          </li>
         </ul>
       </div>
     )
