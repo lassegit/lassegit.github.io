@@ -67,8 +67,9 @@ module.exports = {
                       excerpt
                       html
                       frontmatter {
-                        title
                         date
+                        title
+                        path
                         tags
                       }
                     }
