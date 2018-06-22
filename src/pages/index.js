@@ -36,7 +36,7 @@ export default class IndexPage extends Component {
               <span className="title-passive">I am</span> Lasse
             </h1>
             <h2 className="sub">
-              Professional programmer in Berlin seeking interesting projects
+              Fullstack developer in Berlin seeking interesting projects
             </h2>
             <ul className="links">
               <li>

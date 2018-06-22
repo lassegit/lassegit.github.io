@@ -18,6 +18,7 @@ const Layout = ({ children }) => (
         },
       ]}
     />
+    <Helmet htmlAttributes={[{ lang: 'en' }]} />
     <Header />
     <div>{children()}</div>
     <Footer />
