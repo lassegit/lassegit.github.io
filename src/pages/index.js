@@ -21,13 +21,15 @@ import javascript from '../assets/svg/javascript.svg'
 import node from '../assets/svg/node.svg'
 import react from '../assets/svg/react.svg'
 import usa from '../assets/svg/usa.svg'
+import php from '../assets/svg/php.svg'
+import angular from '../assets/svg/angular.svg'
 
 export default class IndexPage extends Component {
   render() {
     const title = `Lasse T. | ${this.props.data.site.siteMetadata.title}`
 
     return (
-      <div>
+      <div className="frontpage">
         <Helmet title={title} />
         <div>
           <div className="info">
@@ -75,10 +77,13 @@ export default class IndexPage extends Component {
           <div>
             <h2>About me</h2>
             <p>
-              Danish freelancer programmer living in Berlin with 10 years of
+              Danish fullstack developer living in Berlin with 10 years of
               experience planning, programming and deploying a wide range of web
               apps, both frontend and backend. I provide the technical and
-              business expertise to bring your projects and ideas to life.
+              business expertise to bring your projects and ideas to life. I
+              have a good eye for UX/UI, I am creative and good at finding
+              solutions to problems. I welcome challenges and the possibility to
+              get to know new technologies and people.
             </p>
             <p>
               I speak <img src={denmark} className="flag" /> Danish,{' '}
@@ -88,9 +93,13 @@ export default class IndexPage extends Component {
           </div>
 
           <div>
-            <p>Some of the technologies I utilize (at the time of writing):</p>
+            <h2>Technologies</h2>
+            <p>
+              Technologies I utilize{' '}
+              <i>(I try to keep it updated and concise)</i>:
+            </p>
             <ul className="tech-list">
-              <li className="title">Language:</li>
+              <li className="title">Languages:</li>
               <li className="item">
                 <img src={javascript} className="item-logo" />
                 Javascript (ES6)
@@ -99,10 +108,18 @@ export default class IndexPage extends Component {
                 <img src={python} className="item-logo" />
                 Python
               </li>
+              <li className="item">
+                <img src={php} className="item-logo" />
+                Php
+              </li>
               <li className="title">Frontend:</li>
               <li className="item">
                 <img src={react} className="item-logo" />
-                ReactJS
+                React
+              </li>
+              <li className="item">
+                <img src={angular} className="item-logo" />
+                Angular
               </li>
               <li className="item">
                 <img src={webpack} className="item-logo" />
@@ -110,17 +127,18 @@ export default class IndexPage extends Component {
               </li>
               <li className="item">
                 <img src={grunt} className="item-logo" />
-                Grunt
+                Grunt &amp; Gulp
               </li>
               <li className="item">
                 <img src={sass} className="item-logo" />
-                Sass
+                SASS/SCSS
               </li>
               <li className="title">Backend:</li>
               <li className="item">
                 <img src={node} className="item-logo" />
                 NodeJS
               </li>
+              <li className="item">ExpressJS</li>
               <li className="item">
                 <img src={flask} className="item-logo" />
                 Flask
@@ -131,22 +149,18 @@ export default class IndexPage extends Component {
               </li>
               <li className="item">
                 <img src={database} className="item-logo" />
-                MySQL &amp; PostgreSQL
+                MySQL &amp; Postgres
               </li>
-              <li className="title">Mobile:</li>
-              <li className="item">
-                <img src={react} className="item-logo" />
-                React Native
-              </li>
+              <li className="item">Nginx &amp; Apache</li>
+              <li className="item">MongoDB</li>
             </ul>
             <p>
-              Beyond this I have experience with a range of technologies and
-              frameworks, such as; Angular, Backbone, Redux, Express, Php,
-              Laravel, Nginx, Apache, Linux server, Git, browser extension
-              development, geospatial data, Leaflet, Google maps and Cartodb,
-              Mongodb, Varnish, Memcache, Wordpress, responsive first, user
-              experience, Gimp, web accessibility, SEO, Google Analytics,
-              Stripe.
+              Beyond this, I have experience with: SQL, BackboneJS, Websockets,
+              Redux, jQuery, Laravel, Linux server configuration and deployment,
+              React Native, Git, Chrome extension development, geospatial data,
+              LeafletJS, Google maps API, Cartodb, Varnish, Memcache, Wordpress,
+              Drupal, responsive first, user experience, Gimp, web
+              accessibility, SEO, Google Analytics, Stripe.
             </p>
           </div>
 

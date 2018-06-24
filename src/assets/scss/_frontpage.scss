@@ -67,9 +67,9 @@
   .title {
     color: gray;
     display: block;
-    @media (min-width: $tablet) {
-      display: inline-block;
-    }
+    // @media (min-width: $tablet) {
+    //   display: inline-block;
+    // }
   }
 
   .item {
@@ -87,4 +87,10 @@
 
 .portfolio-image {
   border-radius: 5px;
+}
+
+.frontpage {
+  h2 {
+    margin-top: 30px;
+  }
 }
