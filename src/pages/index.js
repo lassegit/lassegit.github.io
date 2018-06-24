@@ -155,12 +155,15 @@ export default class IndexPage extends Component {
               <li className="item">MongoDB</li>
             </ul>
             <p>
-              Beyond this, I have experience with: SQL, BackboneJS, Websockets,
-              Redux, jQuery, Laravel, Linux server configuration and deployment,
-              React Native, Git, Chrome extension development, geospatial data,
-              LeafletJS, Google maps API, Cartodb, Varnish, Memcache, Wordpress,
-              Drupal, responsive first, user experience, Gimp, web
-              accessibility, SEO, Google Analytics, Stripe.
+              Beyond this, I have experience with:{' '}
+              <b>
+                SQL, BackboneJS, Bootstrap, Websockets, Redux, jQuery, Laravel,
+                Linux server configuration and deployment, React Native, Git,
+                Chrome extension development, geospatial data, LeafletJS, Google
+                maps API, Cartodb, Varnish, Memcache, Wordpress, Drupal,
+                responsive first, user experience, Gimp, web accessibility, SEO,
+                Google Analytics, Stripe.
+              </b>
             </p>
           </div>
 
