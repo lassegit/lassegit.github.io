@@ -5,7 +5,7 @@ title: "My Sublime shortcuts, settings and packages"
 tags: ["Sublime"]
 ---
 
-# Shortcuts
+## Shortcuts
 
 - Reveal in sidebar: **CTRL** + **SHIFT** + **R**
 - Select one similar: **CMD** + **D** 
@@ -17,7 +17,7 @@ tags: ["Sublime"]
 - Toggle sidebar: **CMD** + **K** + **B** 
 - Close HTML tag *(useful for JSX when normal HTML autocomplete doesn't work)*: **alt** + **CMD** + **.**
 
-# Configuration
+## Configuration
 
 ```javascript
 {
@@ -41,7 +41,7 @@ tags: ["Sublime"]
 }
 ```
 
-# Packages
+## Packages
 I often work with ES6/React, Node and Python. I use these packages:
 
 - [All Autocomplete](https://github.com/alienhard/SublimeAllAutocomplete)
