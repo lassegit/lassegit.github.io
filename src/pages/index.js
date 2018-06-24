@@ -166,7 +166,7 @@ export default class IndexPage extends Component {
 
           <div>
             <h2>Open source</h2>
-            <p>I also created and maintain various open source projets:</p>
+            <p>I also developed and maintain various open source projets:</p>
             <ul>
               <li>
                 <a href="https://github.com/lassegit/react-pell2">
