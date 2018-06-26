@@ -1,2 +1,0 @@
-webpackJsonp([0x7ab76f7a7e61],{335:function(t,a){t.exports={data:{site:{siteMetadata:{title:"lasse.tech"}},allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{date:"12 Jun, 2018",title:"Gatsby and React-static",path:"/gatsby-and-react-static",tags:["gatsby","react-static","react"]}}}]}},pathContext:{tag:"gatsby"}}}});
-//# sourceMappingURL=path---tags-gatsby-a5efcfdb2957f7de0154.js.map

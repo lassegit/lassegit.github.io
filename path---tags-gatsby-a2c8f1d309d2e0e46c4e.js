@@ -1,2 +1,2 @@
-webpackJsonp([0x7ab76f7a7e61],{340:function(t,a){t.exports={data:{site:{siteMetadata:{title:"lasse.tech"}},allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{date:"12 Jun, 2018",title:"Gatsby and React-static",path:"/gatsby-and-react-static/",tags:["gatsby","react-static","react"]}}}]}},pathContext:{tag:"gatsby"}}}});
+webpackJsonp([0x7ab76f7a7e61],{344:function(t,a){t.exports={data:{site:{siteMetadata:{title:"lasse.tech"}},allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{date:"12 Jun, 2018",title:"Gatsby and React-static",path:"/gatsby-and-react-static/",tags:["gatsby","react-static","react"]}}}]}},pathContext:{tag:"gatsby"}}}});
 //# sourceMappingURL=path---tags-gatsby-a2c8f1d309d2e0e46c4e.js.map
