@@ -3,6 +3,10 @@ import Link from 'gatsby-link'
 
 export default class Header extends Component {
   render() {
+    if (location.pathname === '/') {
+      return null
+    }
+
     return (
       <div className="header">
         <Link to="/" className="header-logo">
