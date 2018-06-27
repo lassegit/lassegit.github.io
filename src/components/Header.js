@@ -3,7 +3,8 @@ import Link from 'gatsby-link'
 
 export default class Header extends Component {
   render() {
-    if (location.pathname === '/') {
+    const { pathname } = this.props.location
+    if (pathname === '/') {
       return null
     }
 
