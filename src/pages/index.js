@@ -112,6 +112,7 @@ export default class IndexPage extends Component {
                 <img src={php} className="item-logo" />
                 Php
               </li>
+              <li className="item">SQL</li>
               <li className="title">Frontend:</li>
               <li className="item">
                 <img src={react} className="item-logo" />
@@ -155,15 +156,16 @@ export default class IndexPage extends Component {
               <li className="item">MongoDB</li>
             </ul>
             <p>
-              Beyond this, I have experience with:{' '}
-              <b>
-                SQL, BackboneJS, Bootstrap, Websockets, Redux, jQuery, Laravel,
-                Linux server configuration and deployment, React Native, Git,
-                Chrome extension development, geospatial data, LeafletJS, Google
-                maps API, Cartodb, Varnish, Memcache, Wordpress, Drupal,
-                responsive first, user experience, Gimp, web accessibility, SEO,
-                Google Analytics, Stripe.
-              </b>
+              Beyond this, I have experience with range of other frameworks,
+              libraries, technologies and services, notably:{' '}
+              <i>
+                BackboneJS, Bootstrap, Plone CMS, Websockets, Redux, jQuery,
+                Laravel, Linux server configuration and deployment, React
+                Native, Git, Chrome extension development, geospatial data,
+                LeafletJS, Google maps API, Cartodb, Varnish, Memcache,
+                Wordpress, Drupal, responsive first, user experience, Gimp, web
+                accessibility, SEO, Google Analytics, Stripe.
+              </i>
             </p>
           </div>
 
