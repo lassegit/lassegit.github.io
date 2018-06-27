@@ -159,10 +159,10 @@ export default class IndexPage extends Component {
               Beyond this, I have experience with range of other frameworks,
               libraries, technologies and services, notably:{' '}
               <i>
-                BackboneJS, Bootstrap, Plone CMS, Websockets, Redux, jQuery,
-                Laravel, Linux server configuration and deployment, React
-                Native, Git, Chrome extension development, geospatial data,
-                LeafletJS, Google maps API, Cartodb, Varnish, Memcache,
+                BackboneJS, Bootstrap, Plone CMS, NPM, Websockets, Redux,
+                jQuery, Laravel, Linux server configuration and deployment,
+                React Native, Git, Chrome extension development, geospatial
+                data, LeafletJS, Google maps API, Cartodb, Varnish, Memcache,
                 Wordpress, Drupal, responsive first, user experience, Gimp, web
                 accessibility, SEO, Google Analytics, Stripe.
               </i>
