@@ -31,7 +31,7 @@ export default function Template({ data }) {
         />
       </div>
       <div className="blog-post__footer">
-        {tags ? (
+        {tags && tags.length !== 0 ? (
           <ul className="blog-post__tags">
             Tags:{' '}
             {tags.map((tag, i) => (
@@ -62,7 +62,7 @@ export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     site {
       siteMetadata {
-        title,
+        title
         siteUrl
       }
     }
