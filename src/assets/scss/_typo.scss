@@ -67,13 +67,10 @@ table {
   text-align: left;
 }
 
-tr {
-  border-bottom: 1px solid #ddd;
-}
-
 td,
 th {
-  padding: 5px 0;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
 }
 
 img {
