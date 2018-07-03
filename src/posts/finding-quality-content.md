@@ -13,10 +13,6 @@ Finding quality content can be a hassle if you aren't a compulsive news reader. 
 
 - Gitlab: [Daily](https://old.reddit.com/domain/gitlab.com/top/?sort=top&t=day), [Weekly](https://old.reddit.com/domain/gitlab.com/top/?sort=top&t=week), [Monthly](https://old.reddit.com/domain/gitlab.com/top/?sort=top&t=month)
 
-* Stack Overflow: [Daily](https://old.reddit.com/domain/stackoverflow.com/top/?sort=top&t=day), [Weekly](https://old.reddit.com/domain/stackoverflow.com/top/?sort=top&t=week), [Monthly](https://old.reddit.com/domain/stackoverflow.com/top/?sort=top&t=month)
-
-* Hacker News: [Daily](https://old.reddit.com/domain/news.ycombinator.com/top/?sort=top&t=day), [Weekly](https://old.reddit.com/domain/news.ycombinator.com/top/?sort=top&t=week), [Monthly](https://old.reddit.com/domain/news.ycombinator.com/top/?sort=top&t=month) *(Additionally you can [search and sort hacker news](https://hn.algolia.com) as well)*
-
 ## Science
 
 - Scientific American: [Daily](https://old.reddit.com/domain/scientificamerican.com/top/?sort=top&t=day), [Weekly](https://old.reddit.com/domain/scientificamerican.com/top/?sort=top&t=week), [Monthly](https://old.reddit.com/domain/scientificamerican.com/top/?sort=top&t=month)
