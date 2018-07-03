@@ -8,6 +8,14 @@
       "path---tags-react-static-d3d5e17fee5848ac9cd6.js",
       "path---tags-react-static-d3d5e17fee5848ac9cd6.js.map"
     ],
+    "path---countries-with-nigerian-demographics": [
+      "path---countries-with-nigerian-demographics-6698347aabbc7a9fbeba.js",
+      "path---countries-with-nigerian-demographics-6698347aabbc7a9fbeba.js.map"
+    ],
+    "path---finding-quality-content": [
+      "path---finding-quality-content-de4b7bf0c9108cf78a10.js",
+      "path---finding-quality-content-de4b7bf0c9108cf78a10.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-43bb5537dc9cbbd22a32.js",
       "component---src-pages-index-js-43bb5537dc9cbbd22a32.js.map"
@@ -37,8 +45,8 @@
       "path---tags-health-8c16d2186d62f6f6093f.js.map"
     ],
     "path---posts": [
-      "path---posts-9c30e1a6eacf0d239ba5.js",
-      "path---posts-9c30e1a6eacf0d239ba5.js.map"
+      "path---posts-bb67f0c41de7917f853c.js",
+      "path---posts-bb67f0c41de7917f853c.js.map"
     ],
     "path---index": [
       "path---index-531886d207532c11027a.js",
@@ -69,16 +77,20 @@
       "path---my-sublime-shortcuts-settings-and-packages-b4be3b92610e0835867e.js.map"
     ],
     "component---src-templates-post-js": [
-      "component---src-templates-post-js-b2354bd856a0c32f2bf5.js",
-      "component---src-templates-post-js-b2354bd856a0c32f2bf5.js.map"
+      "component---src-templates-post-js-b41f69acd70a656108da.js",
+      "component---src-templates-post-js-b41f69acd70a656108da.js.map"
+    ],
+    "path---tags-demographics": [
+      "path---tags-demographics-d2781c4f111aa73e9e1a.js",
+      "path---tags-demographics-d2781c4f111aa73e9e1a.js.map"
     ],
     "path---on-veganism": [
       "path---on-veganism-cf4bd5a99aba5d0c49bd.js",
       "path---on-veganism-cf4bd5a99aba5d0c49bd.js.map"
     ],
     "app": [
-      "app-840c877124f69e2483b1.js",
-      "app-840c877124f69e2483b1.js.map"
+      "app-19f5e651edd6c674c34b.js",
+      "app-19f5e651edd6c674c34b.js.map"
     ],
     "path---404": [
       "path---404-66a4e3a7f19e9a5419b0.js",
