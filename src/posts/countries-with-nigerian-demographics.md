@@ -1,7 +1,7 @@
 ---
 path: "/countries-with-nigerian-demographics/"
 date: "2018-07-03"
-title: "Countries with Nigerian demographics"
+title: "If other countries had the same demographic development as Nigeria"
 tags: ["demographics"]
 ---
 
@@ -15,7 +15,7 @@ Nigeria is often exemplified as a country which have had, is having and is predi
 | 2050 | 398                             | 102.03%             |
 | 2100 | 790                             | 98.49%              |
 
-Applying the same population growth rate to other countries' 1960 population, we can better understand what tremendous pressure this must but on countries in general. Below we have countries populations in millions had they had they same population growth as Nigeria from 1960 and onwards.
+Applying the same population growth rate to other countries' 1960 population, we can better understand what tremendous pressure this must but on countries. Below we have countries populations in millions had they had they same population growth as Nigeria from 1960 and onwards. Germany's population in 1960 were 73.10 million if we apply Nigeria's population growth, as shown above, Germany's population would have been:
 
 | Year | Germany (population in million) |
 |------|---------------------------------|
@@ -221,22 +221,22 @@ In 1960 Germany was divided in DDR with 17,003,655 citizens and West Germany wit
 
 And now 2 countries with populations counted in the thousands:
 
-| Year | Iceland (population in thousands) | 
-|------|-----------------------------------| 
-| 1960 | 175,574                           | 
-| 2000 | 475,999                           | 
-| 2018 | 768,643                           | 
-| 2050 | 1,552,889                         | 
-| 2100 | 3,082,329                         | 
+| Year | Iceland (population in thousand) | 
+|------|----------------------------------| 
+| 1960 | 175,574                          | 
+| 2000 | 475,999                          | 
+| 2018 | 768,643                          | 
+| 2050 | 1,552,889                        | 
+| 2100 | 3,082,329                        | 
 
-| Year | Greenland (population in thousands) | 
-|------|-------------------------------------| 
-| 1960 | 32,500                              | 
-| 2000 | 88,111                              | 
-| 2018 | 142,281                             | 
-| 2050 | 287,451                             | 
-| 2100 | 570,561                             | 
+| Year | Greenland (population in thousand) | 
+|------|------------------------------------| 
+| 1960 | 32,500                             | 
+| 2000 | 88,111                             | 
+| 2018 | 142,281                            | 
+| 2050 | 287,451                            | 
+| 2100 | 570,561                            | 
 
-[Here](https://www.google.de/publicdata/explore?ds=d5bncppjof8f9_&ctype=l&strail=false&bcs=d&nselm=h&met_y=sp_pop_totl&scale_y=lin&ind_y=false&rdim=region&idim=country:DEU:FRA:TUR:CZE:ESP:SWE:RUS:POL:NOR:ITA:IRL:ARG:USA:AUT:GBR&ifdim=region&hl=de&dl=de&ind=false) are actual demographic developments. [A report on Africa's demographic challenges](https://www.berlin-institut.org/publikationen/studien/afrikas-demografische-herausforderung.html), in English and German.
+[Here](https://www.google.de/publicdata/explore?ds=d5bncppjof8f9_&ctype=l&strail=false&bcs=d&nselm=h&met_y=sp_pop_totl&scale_y=lin&ind_y=false&rdim=region&idim=country:DEU:FRA:TUR:CZE:ESP:SWE:RUS:POL:NOR:ITA:IRL:ARG:USA:AUT:GBR&ifdim=region&hl=de&dl=de&ind=false) are the actual demographic developments. [A report on Africa's demographic challenges](https://www.berlin-institut.org/publikationen/studien/afrikas-demografische-herausforderung.html), in English and German.
 
-Side note: [apparently](https://english.stackexchange.com/questions/16350/millions-versus-million) it is since the 1900 archaic to use millions, as in population in millions, in plural. Instead it is population in million or Germany had a population of 73.1 million in 1960. 
+Side note: [apparently](https://english.stackexchange.com/questions/16350/millions-versus-million) it is since the 1900 archaic to use millions, as in population in millions, in plural. Instead it is population in million or Germany had a population of 73.1 million in 1960. Komisch.
