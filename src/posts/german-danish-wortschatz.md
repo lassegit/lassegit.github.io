@@ -1,6 +1,6 @@
 ---
 path: "/german-danish-wortschatz/"
-date: "2018-07-05"
+date: "2018-07-04"
 title: "German and Danish Wortschatz"
 tags: ["Language"]
 ---
@@ -31,6 +31,19 @@ Learning a new language includes translating your way of talking to the new lang
 - lutschen: sutte
 - die Umgangsform: omgangsform
 - der Wortschatz: ordforråd
+- umsonst: gratis, forgæves, til ingen nytte
+- einschmeicheln: indsmigre sig
+- die Prahlerei, die Aufschneiderei: praleri
+- die Erlangung: opnåelse
+- das Verzeichnis: fortegnelse, liste, register
+- die Unschuld: uskyld
+- literarisch: boglig
+- stechen: stikke (jemandem etwas vorlügen, jemandem eine langen/runterhauen)
+- der Spitzel: stikker
+- schnöde, jämmerlich, erbähmlich: ussel
+- schändlich: skændig
+- verachtenswert: foragtelig
+
 
 ## Translation tools
 
