@@ -20,6 +20,10 @@
       "component---src-pages-index-js-43bb5537dc9cbbd22a32.js",
       "component---src-pages-index-js-43bb5537dc9cbbd22a32.js.map"
     ],
+    "path---german-danish-wortschatz": [
+      "path---german-danish-wortschatz-f6a6c872c4c196f8080a.js",
+      "path---german-danish-wortschatz-f6a6c872c4c196f8080a.js.map"
+    ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
@@ -31,6 +35,10 @@
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-a574a33448b9166d210d.js",
       "component---src-layouts-index-js-a574a33448b9166d210d.js.map"
+    ],
+    "path---tags-language": [
+      "path---tags-language-e0b7406510ec3bee60b4.js",
+      "path---tags-language-e0b7406510ec3bee60b4.js.map"
     ],
     "component---src-templates-tag-js": [
       "component---src-templates-tag-js-efb3bc99671b18a8b83d.js",
@@ -45,8 +53,8 @@
       "path---tags-health-8c16d2186d62f6f6093f.js.map"
     ],
     "path---posts": [
-      "path---posts-8e2e49ec852c2f73ebb2.js",
-      "path---posts-8e2e49ec852c2f73ebb2.js.map"
+      "path---posts-95041a421e24146a4ca8.js",
+      "path---posts-95041a421e24146a4ca8.js.map"
     ],
     "path---index": [
       "path---index-531886d207532c11027a.js",
@@ -89,8 +97,8 @@
       "path---on-veganism-cf4bd5a99aba5d0c49bd.js.map"
     ],
     "app": [
-      "app-19f5e651edd6c674c34b.js",
-      "app-19f5e651edd6c674c34b.js.map"
+      "app-57ed37d0e80196bec190.js",
+      "app-57ed37d0e80196bec190.js.map"
     ],
     "path---404": [
       "path---404-66a4e3a7f19e9a5419b0.js",
