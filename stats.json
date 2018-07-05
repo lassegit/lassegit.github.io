@@ -21,24 +21,32 @@
       "component---src-pages-index-js-43bb5537dc9cbbd22a32.js.map"
     ],
     "path---german-danish-wortschatz": [
-      "path---german-danish-wortschatz-afced9384c4cada6a73b.js",
-      "path---german-danish-wortschatz-afced9384c4cada6a73b.js.map"
+      "path---german-danish-wortschatz-6240c5a3516a4bb356ba.js",
+      "path---german-danish-wortschatz-6240c5a3516a4bb356ba.js.map"
+    ],
+    "path---twitter-uses-reactjs-16-2-0-for-video-elements": [
+      "path---twitter-uses-reactjs-16-2-0-for-video-elements-f2f63c39535e1da4ba1c.js",
+      "path---twitter-uses-reactjs-16-2-0-for-video-elements-f2f63c39535e1da4ba1c.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---tags-react": [
-      "path---tags-react-d627f344e028a831279f.js",
-      "path---tags-react-d627f344e028a831279f.js.map"
+      "path---tags-react-0e17c869ac5853881cd6.js",
+      "path---tags-react-0e17c869ac5853881cd6.js.map"
+    ],
+    "path---tags-twitter": [
+      "path---tags-twitter-31447a78c41a63fa7624.js",
+      "path---tags-twitter-31447a78c41a63fa7624.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-a574a33448b9166d210d.js",
       "component---src-layouts-index-js-a574a33448b9166d210d.js.map"
     ],
     "path---tags-language": [
-      "path---tags-language-e0b7406510ec3bee60b4.js",
-      "path---tags-language-e0b7406510ec3bee60b4.js.map"
+      "path---tags-language-8fa7b716478b72270f08.js",
+      "path---tags-language-8fa7b716478b72270f08.js.map"
     ],
     "component---src-templates-tag-js": [
       "component---src-templates-tag-js-efb3bc99671b18a8b83d.js",
@@ -53,8 +61,8 @@
       "path---tags-health-8c16d2186d62f6f6093f.js.map"
     ],
     "path---posts": [
-      "path---posts-95041a421e24146a4ca8.js",
-      "path---posts-95041a421e24146a4ca8.js.map"
+      "path---posts-bf15fa61b541622faaa9.js",
+      "path---posts-bf15fa61b541622faaa9.js.map"
     ],
     "path---index": [
       "path---index-531886d207532c11027a.js",
@@ -97,8 +105,8 @@
       "path---on-veganism-cf4bd5a99aba5d0c49bd.js.map"
     ],
     "app": [
-      "app-57ed37d0e80196bec190.js",
-      "app-57ed37d0e80196bec190.js.map"
+      "app-4ee73fd2e107fede3011.js",
+      "app-4ee73fd2e107fede3011.js.map"
     ],
     "path---404": [
       "path---404-66a4e3a7f19e9a5419b0.js",
