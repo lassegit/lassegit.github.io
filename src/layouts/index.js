@@ -6,6 +6,7 @@ import Link from 'gatsby-link'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../assets/scss/style.scss'
+import favicon from '../assets/img/favicon.png'
 
 const Layout = ({ children, location }) => (
   <div className="wrapper">
@@ -16,6 +17,11 @@ const Layout = ({ children, location }) => (
           type: 'application/rss+xml',
           title: 'rss',
           href: '/rss.xml',
+        },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          href: favicon,
         },
       ]}
     />

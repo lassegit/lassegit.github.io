@@ -43,7 +43,7 @@ Learning a new language includes translating your way of talking to the new lang
 - schnöde, jämmerlich, erbähmlich: ussel
 - schändlich: skændig
 - verachtenswert: foragtelig
-
+- rächen: hævne (jemanden/etwas rächen)
 
 ## Translation tools
 
