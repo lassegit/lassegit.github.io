@@ -11,7 +11,6 @@ Learning a new language includes translating your way of talking to the new lang
 - aufrichtig: oprigtig
 - bescheiden: beskeden
 - klopfen: banke, slå
-- der Neid: misundelse
 - die Eifersucht: jalousi
 - die Ungnade: unåde
 - lieb: kær, rar, sød, venlig
@@ -61,6 +60,9 @@ Learning a new language includes translating your way of talking to the new lang
 - dementsprechend: tilsvarende, dertil svarende
 - verdrängen: fortrænge
 - vergebens, vergeblich, umsonst: forgæves 
+- der Aufwuchs, Aufwüchse: udvækst
+- die Eifersucht: skinsyge, jalousi, misundelse
+- der Neid, die Missgunst (altid negativ): misundelse
 
 ## Translation tools
 
