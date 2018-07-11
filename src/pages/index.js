@@ -170,6 +170,44 @@ export default class IndexPage extends Component {
           </div>
 
           <div>
+            <h2>Projects</h2>
+            <p>A few selected projects I build:</p>
+            <ul>
+              <li>
+                Embeddable webshop with using ReactJS, Redux, Webpack, Mysql and
+                Flask with a order/product management backend and advanced data
+                export functionality. <br />
+                <small>
+                  Customer:{' '}
+                  <b>Danish Ministry of Higher Education and Science.</b>
+                </small>
+              </li>
+              <li>
+                Custom integration bridge between Cartodb and Podio management
+                tool that displays geodata on various maps. Build using Laravel
+                and Mysql.<br />
+                <small>
+                  Customer: <b>The Foundation for Environmental Education.</b>
+                </small>
+              </li>
+              <li>
+                Web app for finding and viewing verdicts build using BackboneJS,
+                Grunt, Mysql, Flask, Elasticsearch and Docker.<br />
+                <small>
+                  Customer: <b>Danish Environmental Board of Appeal.</b>
+                </small>
+              </li>
+              <li>
+                Build various frontend functionality and UX combining Angular
+                and geodata for a danish housing startup. <br />
+                <small>
+                  Customer: <b>Bolighed</b>
+                </small>
+              </li>
+            </ul>
+          </div>
+
+          <div>
             <h2>Open source</h2>
             <p>I also developed and maintain various open source projets:</p>
             <ul>
@@ -201,7 +239,7 @@ export default class IndexPage extends Component {
               </li>
             </ul>
 
-            <h3>Latest project</h3>
+            <h3>Latest personal project</h3>
             <p>
               My latest project is <a href="https://gitdude.com">gitdude.com</a>,
               a developer service that adds code improvements tips as comment on
