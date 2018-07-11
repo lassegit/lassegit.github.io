@@ -44,6 +44,23 @@ Learning a new language includes translating your way of talking to the new lang
 - schändlich: skændig
 - verachtenswert: foragtelig
 - rächen: hævne (jemanden/etwas rächen)
+- die Tätigkeit: virksomhed, arbejde, arbejdsområde
+- unterschätzen, unterbewerten, verkennen: undervurdere
+- sitzen: sidde
+- setzen: sætte
+- schmeichelhaft: smigrende
+- berappen: pudse, punge ud med
+- das Plädoyer: forsvarstale
+- pauschal: altomfattende, alt iberegnet, inklusive
+- die Hatz: parforcejagt, jag, ræs
+- widerstandsfähig: modstandsdygtig
+- die Nötigung: tvang
+- der Mist: mødding, møg, skidt, gødning
+- gefügig: føjelig
+- die Neigung: hældning, bøjning, tilbøjelighed, lyst, forkærlighed, hang
+- dementsprechend: tilsvarende, dertil svarende
+- verdrängen: fortrænge
+- vergebens, vergeblich, umsonst: forgæves 
 
 ## Translation tools
 
