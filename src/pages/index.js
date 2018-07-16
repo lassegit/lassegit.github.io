@@ -26,7 +26,7 @@ import angular from '../assets/svg/angular.svg'
 
 export default class IndexPage extends Component {
   render() {
-    const title = `Lasse T. | ${this.props.data.site.siteMetadata.title}`
+    const title = `Fullstack Developer in Berlin | Lasse T. | ${this.props.data.site.siteMetadata.title}`
 
     return (
       <div className="frontpage">
@@ -81,9 +81,9 @@ export default class IndexPage extends Component {
               experience planning, programming and deploying a wide range of web
               apps, both frontend and backend. I provide the technical and
               business expertise to bring your projects and ideas to life. I
-              have a good eye for UX/UI, I am creative and good at finding
-              solutions to problems. I welcome challenges and the possibility to
-              get to know new technologies and people.
+              have a good eye for UX/UI, am resourceful and good problem solver.
+              I welcome challenges and the possibility to get to know new
+              technologies and people.
             </p>
             <p>
               I speak <img src={denmark} className="flag" /> Danish,{' '}
@@ -195,6 +195,14 @@ export default class IndexPage extends Component {
                 Grunt, Mysql, Flask, Elasticsearch and Docker.<br />
                 <small>
                   Customer: <b>Danish Environmental Board of Appeal.</b>
+                </small>
+              </li>
+              <li>
+                Co-developed a portal for exploring digitalized images and
+                artifacts from the museum's collection. Build using Express,
+                ES6, Jade, Scss, Angular and Elasticsearch.<br />
+                <small>
+                  Customer: <b>The National Museum of Denmark.</b>
                 </small>
               </li>
               <li>

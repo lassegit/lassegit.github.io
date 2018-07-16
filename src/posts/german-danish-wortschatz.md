@@ -21,7 +21,7 @@ Learning a new language includes translating your way of talking to the new lang
 - jämmerlich: ynkelig
 - bedauern: ynke
 - ansteuern: anduver (den sicheren Hafen ansteuern)
-- Liebhaberwert: affektionsværdi
+- der Liebhaberwert: affektionsværdi
 - das Edikt: edikt
 - der Erlass: bekendtgørelse, cirkulære, forordning, påbud, eftergivelse, dispensation
 - die Etikette: etikette (Geschäftsetikette, richtige Etikette, gegen die Etikette verstoßen)
@@ -63,6 +63,14 @@ Learning a new language includes translating your way of talking to the new lang
 - der Aufwuchs, Aufwüchse: udvækst
 - die Eifersucht: skinsyge, jalousi, misundelse
 - der Neid, die Missgunst (altid negativ): misundelse
+- die Anzeige: anmeldelse, angivelse, annonce, stilling
+- schludern: sjuske
+- schaudern: gyse, ryste
+- skabagtigt: geziert, geschraubt
+- die Eitelkeit: forfængelighed
+- die Koketterie: koketteri
+- das Gewissen: samvittighed
+- gewissenlos: samvittighedsløs
 
 ## Translation tools
 
