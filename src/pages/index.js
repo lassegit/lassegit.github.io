@@ -220,6 +220,16 @@ export default class IndexPage extends Component {
             <p>I also developed and maintain various open source projets:</p>
             <ul>
               <li>
+                <a href="https://github.com/lassegit/react-simple-social">
+                  react-simple-social
+                </a>: Add all social share links through one simple and lightweight React component.
+              </li>
+              <li>
+                <a href="https://github.com/lassegit/npm-react-module">
+                  npm-react-module
+                </a>: Boilerplate for developing ReactJS modules using Babel.
+              </li>
+              <li>
                 <a href="https://github.com/lassegit/react-pell2">
                   react-pell2
                 </a>: ReactJS wrapper for Pell WYSIWYG text editor for web.
@@ -234,11 +244,6 @@ export default class IndexPage extends Component {
                   flask-scaffolding
                 </a>: Flask Scaffolding featuring Python 3.4, SQLALCHEMY,
                 BackboneJS, RequireJS & Sass (Bootstrap 3).
-              </li>
-              <li>
-                <a href="https://github.com/lassegit/npm-react-module">
-                  npm-react-module
-                </a>: Boilerplate for developing ReactJS modules using Babel.
               </li>
               <li>
                 <a href="https://github.com/lassegit/deepl-extension">
