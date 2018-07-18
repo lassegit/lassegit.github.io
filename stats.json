@@ -17,8 +17,8 @@
       "path---finding-quality-content-de4b7bf0c9108cf78a10.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-59661012698adb0e9af1.js",
-      "component---src-pages-index-js-59661012698adb0e9af1.js.map"
+      "component---src-pages-index-js-50f1f91496f0adb72160.js",
+      "component---src-pages-index-js-50f1f91496f0adb72160.js.map"
     ],
     "path---german-danish-wortschatz": [
       "path---german-danish-wortschatz-5720fc2a9ee7c9a47522.js",
@@ -81,8 +81,10 @@
       "component---src-pages-404-js-a60070ed0d29652635a4.js.map"
     ],
     "commons": [
-      "commons-e35206bb07e2a96889f9.js",
-      "commons-e35206bb07e2a96889f9.js.map"
+      "commons-781eea0999ea7b1e861a.js",
+      "build-js-styles.css",
+      "commons-781eea0999ea7b1e861a.js.map",
+      "build-js-styles.css.map"
     ],
     "path---404-html": [
       "path---404-html-66a4e3a7f19e9a5419b0.js",
@@ -93,8 +95,8 @@
       "path---my-sublime-shortcuts-settings-and-packages-b4be3b92610e0835867e.js.map"
     ],
     "component---src-templates-post-js": [
-      "component---src-templates-post-js-b41f69acd70a656108da.js",
-      "component---src-templates-post-js-b41f69acd70a656108da.js.map"
+      "component---src-templates-post-js-3949966e2225b23719e7.js",
+      "component---src-templates-post-js-3949966e2225b23719e7.js.map"
     ],
     "path---tags-demographics": [
       "path---tags-demographics-3592367c3cd0e59789d0.js",
@@ -105,8 +107,10 @@
       "path---on-veganism-cf4bd5a99aba5d0c49bd.js.map"
     ],
     "app": [
-      "app-4ee73fd2e107fede3011.js",
-      "app-4ee73fd2e107fede3011.js.map"
+      "app-75127d8f7f35c3277cf6.js",
+      "build-js-styles.css",
+      "app-75127d8f7f35c3277cf6.js.map",
+      "build-js-styles.css.map"
     ],
     "path---404": [
       "path---404-66a4e3a7f19e9a5419b0.js",
