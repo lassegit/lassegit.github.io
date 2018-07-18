@@ -8104,9 +8104,9 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react-simple-social@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-simple-social/-/react-simple-social-1.0.2.tgz#8697d5ccdc653ea4bfcc5ca199f2d6691da8a5f1"
+react-simple-social@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-simple-social/-/react-simple-social-1.0.4.tgz#9dbcc547e0a30c9c17ad26bca68bb503cad25feb"
   dependencies:
     prop-types "^15.6.1"
     react "^16.0.0"

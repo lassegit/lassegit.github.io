@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import ShareOnTwitter from '../components/ShareOnTwitter'
 import rss from '../assets/svg/rss.svg'
 import twitter from '../assets/svg/twitter.svg'
+import SocialShare from 'react-simple-social'
 
 export default function Template({ data }) {
   const { markdownRemark } = data
@@ -17,14 +18,18 @@ export default function Template({ data }) {
       <Helmet title={title} />
       <div className="blog-post">
         <h1 className="blog-post__title">{frontmatter.title}</h1>
-        <p className="blog-post__date">
-          {frontmatter.date} &mdash;{' '}
-          <ShareOnTwitter
-            className="blog-post__twitter"
-            link={link}
-            text={frontmatter.title}
+        <div className="blog-post__date">
+          {frontmatter.date} &mdash;
+          <SocialShare
+            url={link}
+            title={frontmatter.title}
+            sites={['twitter', 'reddit', 'linkedin', 'email']}
+            color="gray"
+            theme="minimal"
+            width="14"
+            height="14"
           />
-        </p>
+        </div>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}

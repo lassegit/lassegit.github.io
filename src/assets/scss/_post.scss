@@ -15,6 +15,7 @@
 .blog-post__date {
   font-family: $font-italic;
   font-size: 14px;
+  margin: 0 0 10px 0;
 }
 
 .blog-post__twitter {
@@ -53,4 +54,21 @@
 
 pre[class*='language-'] {
   border-radius: 5px;
+}
+
+.simple-share {
+  display: inline;
+}
+.simple-share-list {
+  display: inline;
+  padding: 0;
+  margin: 0 0 0 5px;
+
+  a {
+    border: 0;
+  }
+
+  svg {
+    vertical-align: middle;
+  }
 }
