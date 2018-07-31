@@ -1,2 +1,2 @@
-webpackJsonp([0x7470efbeaada],{363:function(a,t){a.exports={data:{site:{siteMetadata:{title:"lasse.tech"}},allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{date:"4 Jul, 2018",title:"German and Danish Wortschatz",path:"/german-danish-wortschatz/",tags:["Language"]}}}]}},pathContext:{tag:"Language"}}}});
+webpackJsonp([0x7470efbeaada],{367:function(a,t){a.exports={data:{site:{siteMetadata:{title:"lasse.tech"}},allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{date:"4 Jul, 2018",title:"German and Danish Wortschatz",path:"/german-danish-wortschatz/",tags:["Language"]}}}]}},pathContext:{tag:"Language"}}}});
 //# sourceMappingURL=path---tags-language-8fa7b716478b72270f08.js.map
