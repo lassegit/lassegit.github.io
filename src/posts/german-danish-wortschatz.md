@@ -71,6 +71,8 @@ Learning a new language includes translating your way of talking to the new lang
 - die Koketterie: koketteri
 - das Gewissen: samvittighed
 - gewissenlos: samvittighedsløs
+- ehrsüchtig: ærekær
+- vererben, vermachen: testamentere
 
 ## Translation tools
 
