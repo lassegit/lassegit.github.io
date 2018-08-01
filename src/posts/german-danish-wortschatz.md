@@ -73,6 +73,7 @@ Learning a new language includes translating your way of talking to the new lang
 - gewissenlos: samvittighedsløs
 - ehrsüchtig: ærekær
 - vererben, vermachen: testamentere
+- die Tugend (die Tugenden), aus der Not eine Tugend machen - dyb
 
 ## Translation tools
 
