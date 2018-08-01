@@ -188,3 +188,4 @@ Useful links:
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [CSS Flexbox - w3schools.com](https://www.w3schools.com/css/css3_flexbox.asp)
 - [Flexbox - A friendly tutorial for modern CSS layouts](https://internetingishard.com/html-and-css/flexbox/)
+- [CSS Flexbox Examples](https://www.quackit.com/css/flexbox/examples/)
