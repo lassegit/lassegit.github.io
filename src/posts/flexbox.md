@@ -106,7 +106,7 @@ Justify-content aligns content (usually) along x-axis of the container, the hori
 
 [Justify-content specifications](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content).
 
-## place-content
+## Place-content
 
 Place-content is a shortcut for `place-content: align-content justify-content;`.
 
@@ -166,7 +166,7 @@ Flex-direction allows you to either stack items on top of each other like column
 
 [Flex-direction specifications](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction).
 
-## flex-wrap
+## Flex-wrap
 
 Wraps items within a container or allows them container to overflow horizontally.
 
