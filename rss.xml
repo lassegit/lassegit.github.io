@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[lasse.tech]]></title><description><![CDATA[Writing about technology and society from Berlin.]]></description><link>https://lasse.tech</link><generator>RSS for Node</generator><lastBuildDate>Tue, 31 Jul 2018 16:25:05 GMT</lastBuildDate><item><title><![CDATA[Flexbox]]></title><description><![CDATA[Flexbox is short for flexible box module. In terms familiar to those with previous CSS knowledge this means you don't have to import an…]]></description><link>https://lasse.tech/flexbox/</link><guid isPermaLink="false">https://lasse.tech/flexbox/</guid><pubDate>Tue, 31 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Flexbox is short for flexible box module. In terms familiar to those with previous CSS knowledge this means you don&apos;t have to import an external framework – like Bootstrap&apos;s grid – for regular layouts. And no more floats. It also adds the much awaited vertical alignment (align-items:center;) and equal box height (something which required required 3rd party Javascript library like &lt;a href=&quot;https://masonry.desandro.com/&quot;&gt;Masonry&lt;/a&gt;).&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[lasse.tech]]></title><description><![CDATA[Writing about technology and society from Berlin.]]></description><link>https://lasse.tech</link><generator>RSS for Node</generator><lastBuildDate>Wed, 01 Aug 2018 14:02:32 GMT</lastBuildDate><item><title><![CDATA[Flexbox]]></title><description><![CDATA[Flexbox is short for flexible box module. In terms familiar to those with previous CSS knowledge this means you don't have to import an…]]></description><link>https://lasse.tech/flexbox/</link><guid isPermaLink="false">https://lasse.tech/flexbox/</guid><pubDate>Tue, 31 Jul 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Flexbox is short for flexible box module. In terms familiar to those with previous CSS knowledge this means you don&apos;t have to import an external framework – like Bootstrap&apos;s grid – for regular layouts. And no more floats. It also adds the much awaited vertical alignment (align-items:center;) and equal box height (something which required required 3rd party Javascript library like &lt;a href=&quot;https://masonry.desandro.com/&quot;&gt;Masonry&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;I don&apos;t see it use that much even though it is now widely &lt;a href=&quot;https://caniuse.com/#search=flexbox&quot;&gt;supported&lt;/a&gt;. Perhaps because it comes of as abstract and non-intuitive, specially if you have been used to using traditional 3rd party libraries for hacking CSS layout. Truth is these layout feature have been missing for ages in CSS. &lt;/p&gt;
 &lt;h2&gt;Align-content, align-items and align-self&lt;/h2&gt;
 &lt;p&gt;Align-content aligns multiple lines of content in the container while align-items aligns per line of content. Both arranges content vertically along the y-axis. &lt;a href=&quot;https://stackoverflow.com/questions/27539262/whats-the-difference-between-align-content-and-align-items&quot;&gt;Here&lt;/a&gt; is a Stackoverflow post detailing it. Align-self merely aligns a single item on a line, an align-items for 1 item.&lt;/p&gt;
@@ -84,7 +84,7 @@
   &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content&quot;&gt;Justify-content specifications&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;place-content&lt;/h2&gt;
+&lt;h2&gt;Place-content&lt;/h2&gt;
 &lt;p&gt;Place-content is a shortcut for &lt;code class=&quot;language-text&quot;&gt;place-content: align-content justify-content;&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;
       &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;  place&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;content &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
@@ -130,7 +130,7 @@
   &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction&quot;&gt;Flex-direction specifications&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;flex-wrap&lt;/h2&gt;
+&lt;h2&gt;Flex-wrap&lt;/h2&gt;
 &lt;p&gt;Wraps items within a container or allows them container to overflow horizontally.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;
       &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;  flex&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;wrap &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
@@ -247,6 +247,7 @@
 &lt;li&gt;gewissenlos: samvittighedsløs&lt;/li&gt;
 &lt;li&gt;ehrsüchtig: ærekær&lt;/li&gt;
 &lt;li&gt;vererben, vermachen: testamentere&lt;/li&gt;
+&lt;li&gt;die Tugend (die Tugenden), aus der Not eine Tugend machen - dyb&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Translation tools&lt;/h2&gt;
 &lt;p&gt;Danish-German dictionary and vice versa: &lt;a href=&quot;https://de.langenscheidt.com&quot;&gt;https://de.langenscheidt.com&lt;/a&gt;
