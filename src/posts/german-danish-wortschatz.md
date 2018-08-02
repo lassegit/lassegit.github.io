@@ -68,12 +68,14 @@ Learning a new language includes translating your way of talking to the new lang
 - schaudern: gyse, ryste
 - skabagtigt: geziert, geschraubt
 - die Eitelkeit: forfængelighed
+- eitel: forfængelig
 - die Koketterie: koketteri
 - das Gewissen: samvittighed
 - gewissenlos: samvittighedsløs
 - ehrsüchtig: ærekær
 - vererben, vermachen: testamentere
 - die Tugend (die Tugenden), aus der Not eine Tugend machen - dyb
+- muffeln: være gnaven, surmule
 
 ## Translation tools
 
