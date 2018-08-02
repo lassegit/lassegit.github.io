@@ -21,8 +21,8 @@
       "component---src-pages-index-js-50f1f91496f0adb72160.js.map"
     ],
     "path---german-danish-wortschatz": [
-      "path---german-danish-wortschatz-63bc909f25c796954554.js",
-      "path---german-danish-wortschatz-63bc909f25c796954554.js.map"
+      "path---german-danish-wortschatz-ceb88e4d9e5ca20ce927.js",
+      "path---german-danish-wortschatz-ceb88e4d9e5ca20ce927.js.map"
     ],
     "path---twitter-uses-reactjs-16-2-0-for-video-elements": [
       "path---twitter-uses-reactjs-16-2-0-for-video-elements-f2f63c39535e1da4ba1c.js",
@@ -81,9 +81,9 @@
       "component---src-pages-404-js-a60070ed0d29652635a4.js.map"
     ],
     "commons": [
-      "commons-781eea0999ea7b1e861a.js",
+      "commons-e35206bb07e2a96889f9.js",
       "build-js-styles.css",
-      "commons-781eea0999ea7b1e861a.js.map",
+      "commons-e35206bb07e2a96889f9.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -99,8 +99,8 @@
       "path---my-sublime-shortcuts-settings-and-packages-b4be3b92610e0835867e.js.map"
     ],
     "component---src-templates-post-js": [
-      "component---src-templates-post-js-3949966e2225b23719e7.js",
-      "component---src-templates-post-js-3949966e2225b23719e7.js.map"
+      "component---src-templates-post-js-4d289fd577bedcbc59a4.js",
+      "component---src-templates-post-js-4d289fd577bedcbc59a4.js.map"
     ],
     "path---tags-demographics": [
       "path---tags-demographics-3592367c3cd0e59789d0.js",
@@ -115,9 +115,9 @@
       "path---tags-css-99a57d78aa7229c9902a.js.map"
     ],
     "app": [
-      "app-bad9982ab0039ebf07c9.js",
+      "app-4239c596fcfe8dd81f4d.js",
       "build-js-styles.css",
-      "app-bad9982ab0039ebf07c9.js.map",
+      "app-4239c596fcfe8dd81f4d.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
