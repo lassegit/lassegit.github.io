@@ -55,3 +55,6 @@ I often work with ES6/React, Node and Python. I use these packages:
 - [Dictionaries](https://github.com/titoBouzout/Dictionaries) *Many languages supported.*
 - [Markdown preview](https://github.com/facelessuser/MarkdownPreview)
 
+## Links
+
+- [Official keyboard shortcut for Mac OSX](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html)
