@@ -22,11 +22,12 @@ import node from '../assets/svg/node.svg'
 import react from '../assets/svg/react.svg'
 import usa from '../assets/svg/usa.svg'
 import php from '../assets/svg/php.svg'
-import angular from '../assets/svg/angular.svg'
 
 export default class IndexPage extends Component {
   render() {
-    const title = `Fullstack Developer in Berlin | Lasse T. | ${this.props.data.site.siteMetadata.title}`
+    const title = `Fullstack Developer in Berlin | Lasse T. | ${
+      this.props.data.site.siteMetadata.title
+    }`
 
     return (
       <div className="frontpage">
@@ -119,10 +120,6 @@ export default class IndexPage extends Component {
                 React
               </li>
               <li className="item">
-                <img src={angular} className="item-logo" />
-                Angular
-              </li>
-              <li className="item">
                 <img src={webpack} className="item-logo" />
                 Webpack
               </li>
@@ -174,6 +171,13 @@ export default class IndexPage extends Component {
             <p>A few selected projects I build:</p>
             <ul>
               <li>
+                Co-developed (in a team and independently) a ReactJS app for a
+                e-learning startup in Berlin. <br />
+                <small>
+                  Customer: <b>Wonderwerk.co</b>
+                </small>
+              </li>
+              <li>
                 Embeddable webshop with using ReactJS, Redux, Webpack, Mysql and
                 Flask with a order/product management backend and advanced data
                 export functionality. <br />
@@ -222,7 +226,8 @@ export default class IndexPage extends Component {
               <li>
                 <a href="https://github.com/lassegit/react-simple-social">
                   react-simple-social
-                </a>: Add all social share links through one simple and lightweight React component.
+                </a>: Add all social share links through one simple and
+                lightweight React component.
               </li>
               <li>
                 <a href="https://github.com/lassegit/npm-react-module">
