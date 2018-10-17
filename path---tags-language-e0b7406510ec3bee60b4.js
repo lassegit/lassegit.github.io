@@ -1,2 +1,0 @@
-webpackJsonp([0x7470efbeaada],{359:function(a,t){a.exports={data:{site:{siteMetadata:{title:"lasse.tech"}},allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{date:"5 Jul, 2018",title:"German and Danish Wortschatz",path:"/german-danish-wortschatz/",tags:["Language"]}}}]}},pathContext:{tag:"Language"}}}});
-//# sourceMappingURL=path---tags-language-e0b7406510ec3bee60b4.js.map
