@@ -1,19 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Helmet from 'react-helmet'
 
-export default class NotFoundPage extends Component {
-  render() {
-    const title = `404 error | ${this.props.data.site.siteMetadata.title}`
+const NotFoundPage = ({ data }) => (
+  <div>
+    <Helmet title={`404 error | ${data.site.siteMetadata.title}`} />
+    <h1>NOT FOUND</h1>
+    <p>You just hit a route that doesn&#39;t exist...</p>
+  </div>
+)
 
-    return (
-      <div>
-        <Helmet title={title} />
-        <h1>NOT FOUND</h1>
-        <p>You just hit a route that doesn&#39;t exist...</p>
-      </div>
-    )
-  }
-}
+export default NotFoundPage
 
 export const pageQuery = graphql`
   query NotFoundPageQuery {

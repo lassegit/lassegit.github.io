@@ -3,38 +3,38 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import rss from '../assets/svg/rss.svg'
 
-export default class Posts extends Component {
-  render() {
-    const title = `Posts | ${this.props.data.site.siteMetadata.title}`
-    const posts = this.props.data.allMarkdownRemark.edges
+const Posts = ({ data }) => {
+  const title = `Posts | ${data.site.siteMetadata.title}`
+  const posts = data.allMarkdownRemark.edges
 
-    return (
-      <div>
-        <Helmet title={title} />
-        <h1>
-          Posts
-          <a href="/rss.xml" className="post-list__rss">
-            <img src={rss} />
-          </a>
-        </h1>
-        <ul className="post-list">
-          {posts.map((post, i) => (
-            <li key={i}>
-              <Link to={post.node.frontmatter.path}>
-                <span className="post-list__title">
-                  {post.node.frontmatter.title}
-                </span>
-              </Link>
-              <span className="post-list__date">
-                ({post.node.frontmatter.date})
+  return (
+    <div>
+      <Helmet title={title} />
+      <h1>
+        Posts
+        <a href="/rss.xml" className="post-list__rss">
+          <img src={rss} />
+        </a>
+      </h1>
+      <ul className="post-list">
+        {posts.map((post, index) => (
+          <li key={index}>
+            <Link to={post.node.frontmatter.path}>
+              <span className="post-list__title">
+                {post.node.frontmatter.title}
               </span>
-            </li>
-          ))}
-        </ul>
-      </div>
-    )
-  }
+            </Link>
+            <span className="post-list__date">
+              ({post.node.frontmatter.date})
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
 }
+
+export default Posts
 
 export const pageQuery = graphql`
   query Posts {

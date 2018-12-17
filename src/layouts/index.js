@@ -5,8 +5,8 @@ import Link from 'gatsby-link'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import '../assets/scss/style.scss'
 import favicon from '../assets/img/favicon.png'
+import '../assets/scss/style.scss'
 
 const Layout = ({ children, location }) => (
   <div className="wrapper">

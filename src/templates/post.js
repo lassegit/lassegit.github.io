@@ -36,16 +36,17 @@ export default function Template({ data }) {
         />
       </div>
       <div className="blog-post__footer">
-        {tags && tags.length !== 0 ? (
-          <ul className="blog-post__tags">
-            Tags:{' '}
-            {tags.map((tag, i) => (
-              <li key={i}>
-                <Link to={`/tags/${tag}/`}>{tag}</Link>
-              </li>
-            ))}
-          </ul>
-        ) : null}
+        {tags &&
+          tags.length && (
+            <ul className="blog-post__tags">
+              Tags:{' '}
+              {tags.map((tag, index) => (
+                <li key={index}>
+                  <Link to={`/tags/${tag}/`}>{tag}</Link>
+                </li>
+              ))}
+            </ul>
+          )}
         <p>
           <a href="/rss.xml">
             <i>Stay updated with RSS:</i>{' '}
