@@ -17,8 +17,8 @@
       "path---finding-quality-content-de4b7bf0c9108cf78a10.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-3d85df4c680e52c5e93f.js",
-      "component---src-pages-index-js-3d85df4c680e52c5e93f.js.map"
+      "component---src-pages-index-js-3a46f8e38dc1f96b2373.js",
+      "component---src-pages-index-js-3a46f8e38dc1f96b2373.js.map"
     ],
     "path---german-danish-wortschatz": [
       "path---german-danish-wortschatz-77efdc7e8b0151d68e62.js",
@@ -33,16 +33,16 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---tags-react": [
-      "path---tags-react-0e17c869ac5853881cd6.js",
-      "path---tags-react-0e17c869ac5853881cd6.js.map"
+      "path---tags-react-d627f344e028a831279f.js",
+      "path---tags-react-d627f344e028a831279f.js.map"
     ],
     "path---tags-twitter": [
       "path---tags-twitter-31447a78c41a63fa7624.js",
       "path---tags-twitter-31447a78c41a63fa7624.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-24ac1bdccc5a5eb40f56.js",
-      "component---src-layouts-index-js-24ac1bdccc5a5eb40f56.js.map"
+      "component---src-layouts-index-js-b467f32ce976656ed42f.js",
+      "component---src-layouts-index-js-b467f32ce976656ed42f.js.map"
     ],
     "path---tags-language": [
       "path---tags-language-8fa7b716478b72270f08.js",
@@ -77,13 +77,13 @@
       "path---gatsby-and-react-static-f49b4f64ed820b4d1fd2.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-a60070ed0d29652635a4.js",
-      "component---src-pages-404-js-a60070ed0d29652635a4.js.map"
+      "component---src-pages-404-js-57edb66728ced018e7b5.js",
+      "component---src-pages-404-js-57edb66728ced018e7b5.js.map"
     ],
     "commons": [
-      "commons-e35206bb07e2a96889f9.js",
+      "commons-781eea0999ea7b1e861a.js",
       "build-js-styles.css",
-      "commons-e35206bb07e2a96889f9.js.map",
+      "commons-781eea0999ea7b1e861a.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -99,8 +99,8 @@
       "path---my-sublime-shortcuts-settings-and-packages-cc7c6841d2c816304f73.js.map"
     ],
     "component---src-templates-post-js": [
-      "component---src-templates-post-js-4d289fd577bedcbc59a4.js",
-      "component---src-templates-post-js-4d289fd577bedcbc59a4.js.map"
+      "component---src-templates-post-js-890acc1c2fa4f6f0188b.js",
+      "component---src-templates-post-js-890acc1c2fa4f6f0188b.js.map"
     ],
     "path---tags-demographics": [
       "path---tags-demographics-3592367c3cd0e59789d0.js",
@@ -115,9 +115,9 @@
       "path---tags-css-99a57d78aa7229c9902a.js.map"
     ],
     "app": [
-      "app-4239c596fcfe8dd81f4d.js",
+      "app-bad9982ab0039ebf07c9.js",
       "build-js-styles.css",
-      "app-4239c596fcfe8dd81f4d.js.map",
+      "app-bad9982ab0039ebf07c9.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -129,8 +129,8 @@
       "path---tags-github-dace3aef2bcb07cb5c99.js.map"
     ],
     "component---src-pages-posts-js": [
-      "component---src-pages-posts-js-fae78f0b0d3b4e169eff.js",
-      "component---src-pages-posts-js-fae78f0b0d3b4e169eff.js.map"
+      "component---src-pages-posts-js-be225d794fd9a1c8c836.js",
+      "component---src-pages-posts-js-be225d794fd9a1c8c836.js.map"
     ],
     "path---tags-veganism": [
       "path---tags-veganism-748c88d1f57cc77005a7.js",
