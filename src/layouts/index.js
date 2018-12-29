@@ -1,12 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import Link from 'gatsby-link';
 
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import favicon from '../assets/img/favicon.png'
-import '../assets/scss/style.scss'
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import { favicon } from '../assets/img';
+import '../assets/scss/style.scss';
 
 const Layout = ({ children, location }) => (
   <div className="wrapper">
@@ -29,10 +29,10 @@ const Layout = ({ children, location }) => (
     <div>{children()}</div>
     <Footer />
   </div>
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.func,
-}
+};
 
-export default Layout
+export default Layout;

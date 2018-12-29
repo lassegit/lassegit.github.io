@@ -1,27 +1,29 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-
-import me from '../assets/img/me.jpg'
-import gitdude from '../assets/img/gitdude.jpg'
-import database from '../assets/svg/database.svg'
-import flask from '../assets/svg/flask.svg'
-import graphql from '../assets/svg/graphql.svg'
-import linkedin from '../assets/svg/linkedin.svg'
-import phone from '../assets/svg/phone.svg'
-import sass from '../assets/svg/sass.svg'
-import webpack from '../assets/svg/webpack.svg'
-import denmark from '../assets/svg/denmark.svg'
-import germany from '../assets/svg/germany.svg'
-import grunt from '../assets/svg/grunt.svg'
-import mail from '../assets/svg/mail.svg'
-import python from '../assets/svg/python.svg'
-import external from '../assets/svg/external.svg'
-import github from '../assets/svg/github.svg'
-import javascript from '../assets/svg/javascript.svg'
-import node from '../assets/svg/node.svg'
-import react from '../assets/svg/react.svg'
-import usa from '../assets/svg/usa.svg'
-import php from '../assets/svg/php.svg'
+import React from 'react';
+import Helmet from 'react-helmet';
+import { me, gitdude } from '../assets/img';
+import {
+  database,
+  flask,
+  graphql,
+  linkedin,
+  phone,
+  sass,
+  webpack,
+  denmark,
+  germany,
+  grunt,
+  mail,
+  python,
+  external,
+  github,
+  javascript,
+  node,
+  react,
+  usa,
+  php,
+  redux,
+  storybook,
+} from '../assets/svg';
 
 const languages = [
   {
@@ -39,12 +41,23 @@ const languages = [
   {
     text: 'SQL',
   },
-]
+];
 
 const frontend = [
   {
     text: 'React',
     icon: react,
+  },
+  {
+    text: 'Redux',
+    icon: redux,
+  },
+  {
+    text: 'CSS-in-JS',
+  },
+  {
+    text: 'Storybook',
+    icon: storybook,
   },
   {
     text: 'Webpack',
@@ -58,7 +71,7 @@ const frontend = [
     text: 'SASS/SCSS',
     icon: sass,
   },
-]
+];
 
 const backend = [
   {
@@ -86,7 +99,7 @@ const backend = [
   {
     text: 'MongoDB',
   },
-]
+];
 
 const IndexPage = ({ data }) => (
   <div className="frontpage">
@@ -161,14 +174,14 @@ const IndexPage = ({ data }) => (
           <li className="title">Languages:</li>
           {languages.map((item, index) => (
             <li key={index} className="item">
-              {item.icon ? <img src={item.icon} className="item-logo" /> : null}
+              {item.icon && <img src={item.icon} className="item-logo" />}
               {item.text}
             </li>
           ))}
           <li className="title">Frontend:</li>
           {frontend.map((item, index) => (
             <li key={index} className="item">
-              {item.icon ? <img src={item.icon} className="item-logo" /> : null}
+              {item.icon && <img src={item.icon} className="item-logo" />}
               {item.text}
             </li>
           ))}
@@ -184,12 +197,12 @@ const IndexPage = ({ data }) => (
           Beyond this, I have experience with range of other frameworks,
           libraries, technologies and services, notably:{' '}
           <i>
-            BackboneJS, Bootstrap, Plone CMS, NPM, Websockets, Redux, jQuery,
-            Laravel, Linux server configuration and deployment, React Native,
-            Git, Chrome extension development, geospatial data, LeafletJS,
-            Google maps API, Cartodb, Varnish, Memcache, Wordpress, Drupal,
-            responsive first, user experience, Gimp, web accessibility, SEO,
-            Google Analytics, Stripe.
+            BackboneJS, Bootstrap, Plone CMS, NPM, Websockets, jQuery, Laravel,
+            Linux server configuration and deployment, React Native, Git, Chrome
+            extension development, geospatial data, LeafletJS, Google maps API,
+            Cartodb, Varnish, Memcache, Wordpress, Drupal, responsive first,
+            user experience, Gimp, web accessibility, SEO, Google Analytics,
+            Stripe.
           </i>
         </p>
       </div>
@@ -300,9 +313,9 @@ const IndexPage = ({ data }) => (
       </div>
     </div>
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexQuery {
@@ -313,4 +326,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

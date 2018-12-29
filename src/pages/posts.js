@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
-import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
-import rss from '../assets/svg/rss.svg'
+import React, { Component } from 'react';
+import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
+import rss from '../assets/svg/rss.svg';
 
 const Posts = ({ data }) => {
-  const title = `Posts | ${data.site.siteMetadata.title}`
-  const posts = data.allMarkdownRemark.edges
+  const title = `Posts | ${data.site.siteMetadata.title}`;
+  const posts = data.allMarkdownRemark.edges;
 
   return (
     <div>
@@ -31,10 +31,10 @@ const Posts = ({ data }) => {
         ))}
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Posts
+export default Posts;
 
 export const pageQuery = graphql`
   query Posts {
@@ -57,4 +57,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

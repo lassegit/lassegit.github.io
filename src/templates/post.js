@@ -1,17 +1,17 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
-import ShareOnTwitter from '../components/ShareOnTwitter'
-import rss from '../assets/svg/rss.svg'
-import twitter from '../assets/svg/twitter.svg'
-import SocialShare from 'react-simple-social'
+import React from 'react';
+import Helmet from 'react-helmet';
+import Link from 'gatsby-link';
+import ShareOnTwitter from '../components/ShareOnTwitter';
+import rss from '../assets/svg/rss.svg';
+import twitter from '../assets/svg/twitter.svg';
+import SocialShare from 'react-simple-social';
 
 export default function Template({ data }) {
-  const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
-  const tags = frontmatter.tags
-  const title = `${frontmatter.title} | ${data.site.siteMetadata.title}`
-  const link = `${data.site.siteMetadata.siteUrl}${frontmatter.path}`
+  const { markdownRemark } = data;
+  const { frontmatter, html } = markdownRemark;
+  const tags = frontmatter.tags;
+  const title = `${frontmatter.title} | ${data.site.siteMetadata.title}`;
+  const link = `${data.site.siteMetadata.siteUrl}${frontmatter.path}`;
 
   return (
     <div className="blog-post-container">
@@ -61,7 +61,7 @@ export default function Template({ data }) {
         </p>
       </div>
     </div>
-  )
+  );
 }
 
 export const pageQuery = graphql`
@@ -83,4 +83,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

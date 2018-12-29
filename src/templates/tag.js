@@ -1,12 +1,12 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
+import React from 'react';
+import Helmet from 'react-helmet';
+import Link from 'gatsby-link';
 
 export default function Template({ pathContext, data }) {
-  const tag = pathContext.tag
-  const total = data.allMarkdownRemark.totalCount
-  const title = `${tag} | ${data.site.siteMetadata.title}`
-  const posts = data.allMarkdownRemark.edges
+  const tag = pathContext.tag;
+  const total = data.allMarkdownRemark.totalCount;
+  const title = `${tag} | ${data.site.siteMetadata.title}`;
+  const posts = data.allMarkdownRemark.edges;
 
   return (
     <div>
@@ -29,7 +29,7 @@ export default function Template({ pathContext, data }) {
         ))}
       </ul>
     </div>
-  )
+  );
 }
 
 export const pageQuery = graphql`
@@ -57,4 +57,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

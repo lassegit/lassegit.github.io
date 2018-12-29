@@ -1,8 +1,8 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 
 const Header = ({ location }) => {
-  if (location.pathname === '/') return null
+  if (location.pathname === '/') return null;
 
   return (
     <div className="header">
@@ -15,7 +15,7 @@ const Header = ({ location }) => {
         </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
