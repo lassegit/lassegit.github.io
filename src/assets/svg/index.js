@@ -18,7 +18,7 @@ import react from './react.svg';
 import usa from './usa.svg';
 import php from './php.svg';
 import redux from './redux.svg';
-import storybook from './storybook.svg';
+import jest from './jest.svg';
 
 export {
   database,
@@ -41,5 +41,5 @@ export {
   usa,
   php,
   redux,
-  storybook,
+  jest,
 };

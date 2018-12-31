@@ -22,7 +22,7 @@ import {
   usa,
   php,
   redux,
-  storybook,
+  jest,
 } from '../assets/svg';
 
 const languages = [
@@ -40,6 +40,7 @@ const languages = [
   },
   {
     text: 'SQL',
+    icon: database,
   },
 ];
 
@@ -53,11 +54,14 @@ const frontend = [
     icon: redux,
   },
   {
+    text: 'Jest/enzyme',
+    icon: jest,
+  },
+  {
     text: 'CSS-in-JS',
   },
   {
     text: 'Storybook',
-    icon: storybook,
   },
   {
     text: 'Webpack',
@@ -68,7 +72,7 @@ const frontend = [
     icon: grunt,
   },
   {
-    text: 'SASS/SCSS',
+    text: 'Sass',
     icon: sass,
   },
 ];
@@ -151,13 +155,13 @@ const IndexPage = ({ data }) => (
       <div>
         <h2>About me</h2>
         <p>
-          Danish fullstack developer living in Berlin with 10 years of
-          experience planning, programming and deploying a wide range of web
-          apps, both frontend and backend. I provide the technical and business
-          expertise to bring your projects and ideas to life. I have a good eye
-          for UX/UI, am resourceful and good problem solver. I welcome
-          challenges and the possibility to get to know new technologies and
-          people.
+          Fullstack developer <i>(specializing in frontend)</i> living in Berlin
+          with 10 years of experience planning, programming and deploying a wide
+          range of web apps, both frontend and backend. I provide the technical
+          and business expertise to bring your projects and ideas to life. I
+          have a good eye for UX/UI, am resourceful and good problem solver. I
+          welcome challenges and the possibility to get to know new technologies
+          and people.
         </p>
         <p>
           I speak <img src={denmark} className="flag" /> Danish,{' '}
@@ -167,9 +171,7 @@ const IndexPage = ({ data }) => (
       </div>
       <div>
         <h2>Technologies</h2>
-        <p>
-          Technologies I utilize <i>(I try to keep it updated and concise)</i>:
-        </p>
+        <p>Some of the technologies I utilize:</p>
         <ul className="tech-list">
           <li className="title">Languages:</li>
           {languages.map((item, index) => (
