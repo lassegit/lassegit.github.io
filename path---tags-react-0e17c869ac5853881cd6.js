@@ -1,2 +1,0 @@
-webpackJsonp([84586273293571],{368:function(t,e){t.exports={data:{site:{siteMetadata:{title:"lasse.tech"}},allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{date:"5 Jul, 2018",title:"Twitter uses ReactJS 16.2.0 for video elements",path:"/twitter-uses-reactjs-16.2.0-for-video-elements/",tags:["React","Twitter"]}}}]}},pathContext:{tag:"React"}}}});
-//# sourceMappingURL=path---tags-react-0e17c869ac5853881cd6.js.map

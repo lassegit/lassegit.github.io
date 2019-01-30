@@ -1,2 +1,0 @@
-webpackJsonp([0xb208d7411d01],{368:function(t,e){t.exports={data:{site:{siteMetadata:{title:"lasse.tech"}},allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{date:"3 Jul, 2018",title:"If other countries had the same demographic development as Nigeria",path:"/countries-with-nigerian-demographics/",tags:["demographics"]}}}]}},pathContext:{tag:"demographics"}}}});
-//# sourceMappingURL=path---tags-demographics-3592367c3cd0e59789d0.js.map
