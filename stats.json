@@ -1,80 +1,36 @@
 {
   "assetsByChunkName": {
-    "path---search-for-users-on-github": [
-      "path---search-for-users-on-github-285acb3adcbbfbb40372.js",
-      "path---search-for-users-on-github-285acb3adcbbfbb40372.js.map"
-    ],
-    "path---tags-react-static": [
-      "path---tags-react-static-d3d5e17fee5848ac9cd6.js",
-      "path---tags-react-static-d3d5e17fee5848ac9cd6.js.map"
-    ],
-    "path---countries-with-nigerian-demographics": [
-      "path---countries-with-nigerian-demographics-528fb4253ce663e9d8a7.js",
-      "path---countries-with-nigerian-demographics-528fb4253ce663e9d8a7.js.map"
-    ],
-    "path---finding-quality-content": [
-      "path---finding-quality-content-de4b7bf0c9108cf78a10.js",
-      "path---finding-quality-content-de4b7bf0c9108cf78a10.js.map"
-    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-090178bd01ac8a23cd54.js",
       "component---src-pages-index-js-090178bd01ac8a23cd54.js.map"
     ],
-    "path---german-danish-wortschatz": [
-      "path---german-danish-wortschatz-77efdc7e8b0151d68e62.js",
-      "path---german-danish-wortschatz-77efdc7e8b0151d68e62.js.map"
-    ],
-    "path---twitter-uses-reactjs-16-2-0-for-video-elements": [
-      "path---twitter-uses-reactjs-16-2-0-for-video-elements-f2f63c39535e1da4ba1c.js",
-      "path---twitter-uses-reactjs-16-2-0-for-video-elements-f2f63c39535e1da4ba1c.js.map"
+    "path---tags": [
+      "path---tags-e4a3ac378160d3798fe4.js",
+      "path---tags-e4a3ac378160d3798fe4.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "path---tags-react": [
-      "path---tags-react-d627f344e028a831279f.js",
-      "path---tags-react-d627f344e028a831279f.js.map"
-    ],
-    "path---tags-twitter": [
-      "path---tags-twitter-31447a78c41a63fa7624.js",
-      "path---tags-twitter-31447a78c41a63fa7624.js.map"
-    ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-ebbbf1333ae27248ab40.js",
       "component---src-layouts-index-js-ebbbf1333ae27248ab40.js.map"
-    ],
-    "path---tags-language": [
-      "path---tags-language-8fa7b716478b72270f08.js",
-      "path---tags-language-8fa7b716478b72270f08.js.map"
     ],
     "component---src-templates-tag-js": [
       "component---src-templates-tag-js-efb3bc99671b18a8b83d.js",
       "component---src-templates-tag-js-efb3bc99671b18a8b83d.js.map"
     ],
-    "path---tags-gatsby": [
-      "path---tags-gatsby-a2c8f1d309d2e0e46c4e.js",
-      "path---tags-gatsby-a2c8f1d309d2e0e46c4e.js.map"
-    ],
-    "path---tags-health": [
-      "path---tags-health-8c16d2186d62f6f6093f.js",
-      "path---tags-health-8c16d2186d62f6f6093f.js.map"
-    ],
     "path---posts": [
-      "path---posts-36533d2c22ffb3070e69.js",
-      "path---posts-36533d2c22ffb3070e69.js.map"
+      "path---posts-8bbc08e0fb3843cce173.js",
+      "path---posts-8bbc08e0fb3843cce173.js.map"
     ],
     "path---index": [
       "path---index-531886d207532c11027a.js",
       "path---index-531886d207532c11027a.js.map"
     ],
-    "path---tags-sublime": [
-      "path---tags-sublime-60c1f40511f7db429f17.js",
-      "path---tags-sublime-60c1f40511f7db429f17.js.map"
-    ],
-    "path---gatsby-and-react-static": [
-      "path---gatsby-and-react-static-f49b4f64ed820b4d1fd2.js",
-      "path---gatsby-and-react-static-f49b4f64ed820b4d1fd2.js.map"
+    "path---hello-world": [
+      "path---hello-world-843feacf0f6845f0e666.js",
+      "path---hello-world-843feacf0f6845f0e666.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-57edb66728ced018e7b5.js",
@@ -90,51 +46,23 @@
       "path---404-html-66a4e3a7f19e9a5419b0.js",
       "path---404-html-66a4e3a7f19e9a5419b0.js.map"
     ],
-    "path---flexbox": [
-      "path---flexbox-ad0a91779d688e09d0f3.js",
-      "path---flexbox-ad0a91779d688e09d0f3.js.map"
-    ],
-    "path---my-sublime-shortcuts-settings-and-packages": [
-      "path---my-sublime-shortcuts-settings-and-packages-cc7c6841d2c816304f73.js",
-      "path---my-sublime-shortcuts-settings-and-packages-cc7c6841d2c816304f73.js.map"
-    ],
     "component---src-templates-post-js": [
       "component---src-templates-post-js-890acc1c2fa4f6f0188b.js",
       "component---src-templates-post-js-890acc1c2fa4f6f0188b.js.map"
     ],
-    "path---tags-demographics": [
-      "path---tags-demographics-3592367c3cd0e59789d0.js",
-      "path---tags-demographics-3592367c3cd0e59789d0.js.map"
-    ],
-    "path---on-veganism": [
-      "path---on-veganism-cf4bd5a99aba5d0c49bd.js",
-      "path---on-veganism-cf4bd5a99aba5d0c49bd.js.map"
-    ],
-    "path---tags-css": [
-      "path---tags-css-99a57d78aa7229c9902a.js",
-      "path---tags-css-99a57d78aa7229c9902a.js.map"
-    ],
     "app": [
-      "app-bad9982ab0039ebf07c9.js",
+      "app-895b869d41200fc5b600.js",
       "build-js-styles.css",
-      "app-bad9982ab0039ebf07c9.js.map",
+      "app-895b869d41200fc5b600.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
       "path---404-66a4e3a7f19e9a5419b0.js",
       "path---404-66a4e3a7f19e9a5419b0.js.map"
     ],
-    "path---tags-github": [
-      "path---tags-github-dace3aef2bcb07cb5c99.js",
-      "path---tags-github-dace3aef2bcb07cb5c99.js.map"
-    ],
     "component---src-pages-posts-js": [
       "component---src-pages-posts-js-be225d794fd9a1c8c836.js",
       "component---src-pages-posts-js-be225d794fd9a1c8c836.js.map"
-    ],
-    "path---tags-veganism": [
-      "path---tags-veganism-748c88d1f57cc77005a7.js",
-      "path---tags-veganism-748c88d1f57cc77005a7.js.map"
     ]
   }
 }

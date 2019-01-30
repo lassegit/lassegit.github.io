@@ -1,0 +1,2 @@
+webpackJsonp([0x802d931d3bc0],{341:function(e,t){e.exports={data:{site:{siteMetadata:{title:"lasse.tech"}},allMarkdownRemark:{edges:[{node:{id:"/Users/lasse/Sites/lassegit.github.io/src/posts/helloworld.md absPath of file >>> MarkdownRemark",excerpt:"",frontmatter:{date:"30 Jan, 2019",path:"/hello-world/",title:"Hello World"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---posts-8bbc08e0fb3843cce173.js.map

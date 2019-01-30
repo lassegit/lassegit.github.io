@@ -1,0 +1,2 @@
+webpackJsonp([0x834755aae49e],{339:function(t,e){t.exports={data:{site:{siteMetadata:{title:"lasse.tech",siteUrl:"https://lasse.tech"}},markdownRemark:{excerpt:"",html:"",frontmatter:{date:"30 January, 2019",path:"/hello-world/",title:"Hello World",tags:[""]}}},pathContext:{}}}});
+//# sourceMappingURL=path---hello-world-843feacf0f6845f0e666.js.map
