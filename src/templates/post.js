@@ -1,7 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
-import ShareOnTwitter from '../components/ShareOnTwitter';
 import rss from '../assets/svg/rss.svg';
 import twitter from '../assets/svg/twitter.svg';
 import SocialShare from 'react-simple-social';
@@ -36,15 +35,15 @@ export default function Template({ data }) {
       </div>
       <div className="blog-post__footer">
         {tags && (
-            <ul className="blog-post__tags">
-              Tags:{' '}
-              {tags.map((tag, index) => (
-                <li key={index}>
-                  <Link to={`/tags/${tag}/`}>{tag}</Link>
-                </li>
-              ))}
-            </ul>
-          )}
+          <ul className="blog-post__tags">
+            Tags:{' '}
+            {tags.map((tag, index) => (
+              <li key={index}>
+                <Link to={`/tags/${tag}/`}>{tag}</Link>
+              </li>
+            ))}
+          </ul>
+        )}
         <p>
           <a href="/rss.xml">
             <i>Stay updated with RSS:</i>{' '}
