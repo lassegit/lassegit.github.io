@@ -2,15 +2,13 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
 import rss from '../assets/svg/rss.svg';
-import twitter from '../assets/svg/twitter.svg';
 import SocialShare from 'react-simple-social';
 
 export default function Template({ data }) {
-  const { markdownRemark } = data;
-  const { frontmatter, html } = markdownRemark;
-  const tags = frontmatter.tags;
+  const { frontmatter, html } = data.markdownRemark;
   const title = `${frontmatter.title} | ${data.site.siteMetadata.title}`;
   const link = `${data.site.siteMetadata.siteUrl}${frontmatter.path}`;
+
   return (
     <div className="blog-post-container">
       <Helmet title={title} />
@@ -34,10 +32,10 @@ export default function Template({ data }) {
         />
       </div>
       <div className="blog-post__footer">
-        {tags && (
+        {frontmatter.tags && (
           <ul className="blog-post__tags">
             Tags:{' '}
-            {tags.map((tag, index) => (
+            {frontmatter.tags.map((tag, index) => (
               <li key={index}>
                 <Link to={`/tags/${tag}/`}>{tag}</Link>
               </li>
