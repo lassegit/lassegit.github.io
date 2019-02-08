@@ -12,7 +12,6 @@ export default function Template({ data }) {
   const tags = frontmatter.tags;
   const title = `${frontmatter.title} | ${data.site.siteMetadata.title}`;
   const link = `${data.site.siteMetadata.siteUrl}${frontmatter.path}`;
-
   return (
     <div className="blog-post-container">
       <Helmet title={title} />
@@ -36,8 +35,7 @@ export default function Template({ data }) {
         />
       </div>
       <div className="blog-post__footer">
-        {tags &&
-          tags.length && (
+        {tags && (
             <ul className="blog-post__tags">
               Tags:{' '}
               {tags.map((tag, index) => (
@@ -51,12 +49,6 @@ export default function Template({ data }) {
           <a href="/rss.xml">
             <i>Stay updated with RSS:</i>{' '}
             <img src={rss} height="13px" width="13px" />
-          </a>
-        </p>
-        <p>
-          <a href="https://twitter.com/intent/follow?screen_name=lasse_tech">
-            <i>Follow me on Twitter:</i>{' '}
-            <img src={twitter} height="13px" width="13px" />
           </a>
         </p>
       </div>
