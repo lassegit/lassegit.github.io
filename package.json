@@ -43,8 +43,8 @@
     }
   },
   "lint-staged": {
-    "*.js": [
-      "lint:fix",
+    "**/*.js": [
+      "./node_modules/eslint/bin/eslint.js . --fix --cache",
       "git add"
     ]
   },
