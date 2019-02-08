@@ -1,5 +1,6 @@
-import React from 'react';
 import Helmet from 'react-helmet';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const NotFoundPage = ({ data }) => (
   <div>
@@ -8,8 +9,6 @@ const NotFoundPage = ({ data }) => (
     <p>You just hit a route that doesn&#39;t exist...</p>
   </div>
 );
-
-export default NotFoundPage;
 
 export const pageQuery = graphql`
   query NotFoundPageQuery {
@@ -20,3 +19,9 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+NotFoundPage.propTypes = {
+  data: PropTypes.shape({}).isRequired,
+};
+
+export default NotFoundPage;

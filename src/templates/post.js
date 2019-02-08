@@ -1,8 +1,9 @@
-import React from 'react';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
-import rss from '../assets/svg/rss.svg';
+import PropTypes from 'prop-types';
+import React from 'react';
 import SocialShare from 'react-simple-social';
+import rss from '../assets/svg/rss.svg';
 
 export default function Template({ data }) {
   const { frontmatter, html } = data.markdownRemark;
@@ -26,10 +27,8 @@ export default function Template({ data }) {
             height="14"
           />
         </div>
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+        {/* eslint-disable-next-line react/no-danger */}
+        <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }} />
       </div>
       <div className="blog-post__footer">
         {frontmatter.tags && (
@@ -44,8 +43,7 @@ export default function Template({ data }) {
         )}
         <p>
           <a href="/rss.xml">
-            <i>Stay updated with RSS:</i>{' '}
-            <img src={rss} height="13px" width="13px" />
+            <i>Stay updated with RSS:</i> <img src={rss} height="13px" width="13px" alt="RSS logo" />
           </a>
         </p>
       </div>
@@ -73,3 +71,7 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+Template.propTypes = {
+  data: PropTypes.shape({}).isRequired,
+};

@@ -1,10 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
+import PropTypes from 'prop-types';
+import React from 'react';
 
-import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 import { favicon } from '../assets/img';
 import '../assets/scss/style.scss';
 
@@ -32,7 +31,8 @@ const Layout = ({ children, location }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.func,
+  location: PropTypes.shape({}).isRequired,
+  children: PropTypes.func.isRequired,
 };
 
 export default Layout;

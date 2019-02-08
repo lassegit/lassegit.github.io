@@ -53,8 +53,8 @@ module.exports = {
                   url: site.siteMetadata.siteUrl + edge.node.frontmatter.path,
                   guid: site.siteMetadata.siteUrl + edge.node.frontmatter.path,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
-                })
-              })
+                });
+              });
             },
             query: `
               {
@@ -94,4 +94,4 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-catch-links',
   ],
-}
+};
