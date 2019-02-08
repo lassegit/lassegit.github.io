@@ -2,9 +2,7 @@
 .cache
 node_modules
 yarn-error.log
-
-# Build directory
+.eslintcache
 /public
 .DS_Store
-
 src/draft
