@@ -1,4 +1,4 @@
-import { database, flask, graphql, node } from '../assets/svg';
+import { database, flask, graphql, node } from '../../assets/svg';
 
 const backend = [
   {

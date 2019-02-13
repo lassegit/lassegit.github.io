@@ -1,12 +1,12 @@
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import React from 'react';
+import backend from '../utils/lists/backend';
+import frontend from '../utils/lists/frontend';
+import languages from '../utils/lists/languages';
 import SkillsList from '../components/SkillsList';
 import { denmark, germany, github, graphql, linkedin, mail, phone, usa } from '../assets/svg';
 import { gitdude, me } from '../assets/img';
-import backend from './backend';
-import frontend from './frontend';
-import languages from './languages';
 
 const IndexPage = ({ data }) => (
   <div className="frontpage">

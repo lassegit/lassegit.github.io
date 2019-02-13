@@ -1,5 +1,5 @@
-import { gimp, grunt, jest, npm, pwa, react, redux, sass, webpack } from '../assets/svg';
-import { immutable } from '../assets/img';
+import { gimp, grunt, jest, npm, pwa, react, redux, sass, webpack } from '../../assets/svg';
+import { immutable } from '../../assets/img';
 
 const frontend = [
   {

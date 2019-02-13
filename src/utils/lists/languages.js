@@ -1,4 +1,4 @@
-import { database, javascript, php, python } from '../assets/svg';
+import { database, javascript, php, python } from '../../assets/svg';
 
 const languages = [
   {
