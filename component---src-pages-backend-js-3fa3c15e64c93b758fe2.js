@@ -1,0 +1,2 @@
+webpackJsonp([0x9755353ed2ca],{207:function(t,e,a){"use strict";e.__esModule=!0;var o=a(54),s=[{text:"NodeJS",icon:o.node},{text:"ExpressJS"},{text:"Flask",icon:o.flask},{text:"GraphQL",icon:o.graphql},{text:"MySQL & Postgres",icon:o.database},{text:"Nginx & Apache"},{text:"MongoDB"}];e.default=s,t.exports=e.default}});
+//# sourceMappingURL=component---src-pages-backend-js-3fa3c15e64c93b758fe2.js.map

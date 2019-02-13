@@ -1,2 +1,0 @@
-webpackJsonp([55702396619907],{342:function(t,a){t.exports={data:{site:{siteMetadata:{title:"lasse.tech"}},allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{date:"30 Jan, 2019",title:"Hello World",path:"/hello-world/",tags:[""]}}}]}},pathContext:{tag:""}}}});
-//# sourceMappingURL=path---tags-e4a3ac378160d3798fe4.js.map

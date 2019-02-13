@@ -1,0 +1,2 @@
+webpackJsonp([0x69a1f14b8bac],{210:function(t,a,e){"use strict";a.__esModule=!0;var c=e(54),o=[{text:"Javascript (ES6)",icon:c.javascript},{text:"Python",icon:c.python},{text:"Php",icon:c.php},{text:"SQL",icon:c.database}];a.default=o,t.exports=a.default}});
+//# sourceMappingURL=component---src-pages-languages-js-5e8a9a3553ea52c76985.js.map
