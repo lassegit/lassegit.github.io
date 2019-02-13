@@ -1,109 +1,12 @@
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import React from 'react';
-import {
-  database,
-  denmark,
-  flask,
-  germany,
-  github,
-  graphql,
-  grunt,
-  javascript,
-  jest,
-  linkedin,
-  mail,
-  node,
-  phone,
-  php,
-  python,
-  react,
-  redux,
-  sass,
-  usa,
-  webpack,
-} from '../assets/svg';
+import SkillsList from '../components/SkillsList';
+import { denmark, germany, github, graphql, linkedin, mail, phone, usa } from '../assets/svg';
 import { gitdude, me } from '../assets/img';
-
-const languages = [
-  {
-    text: 'Javascript (ES6)',
-    icon: javascript,
-  },
-  {
-    text: 'Python',
-    icon: python,
-  },
-  {
-    text: 'Php',
-    icon: php,
-  },
-  {
-    text: 'SQL',
-    icon: database,
-  },
-];
-
-const frontend = [
-  {
-    text: 'React',
-    icon: react,
-  },
-  {
-    text: 'Redux',
-    icon: redux,
-  },
-  {
-    text: 'Jest/enzyme',
-    icon: jest,
-  },
-  {
-    text: 'CSS-in-JS',
-  },
-  {
-    text: 'Storybook',
-  },
-  {
-    text: 'Webpack',
-    icon: webpack,
-  },
-  {
-    text: 'Grunt',
-    icon: grunt,
-  },
-  {
-    text: 'Sass',
-    icon: sass,
-  },
-];
-
-const backend = [
-  {
-    text: 'NodeJS',
-    icon: node,
-  },
-  {
-    text: 'ExpressJS',
-  },
-  {
-    text: 'Flask',
-    icon: flask,
-  },
-  {
-    text: 'GraphQL',
-    icon: graphql,
-  },
-  {
-    text: 'MySQL & Postgres',
-    icon: database,
-  },
-  {
-    text: 'Nginx & Apache',
-  },
-  {
-    text: 'MongoDB',
-  },
-];
+import backend from './backend';
+import frontend from './frontend';
+import languages from './languages';
 
 const IndexPage = ({ data }) => (
   <div className="frontpage">
@@ -146,42 +49,22 @@ const IndexPage = ({ data }) => (
       <div>
         <h2>About me</h2>
         <p>
-          Fullstack developer <i>(specializing in frontend)</i> living in Berlin with 10 years of experience planning,
+          Fullstack developer <b>— specializing in Frontend –</b> living in Berlin with 10 years of experience planning,
           programming and deploying a wide range of web apps, both frontend and backend. I provide the technical and business
           expertise to bring your projects and ideas to life. I have a good eye for UX/UI, am resourceful and good problem
           solver. I welcome challenges and the possibility to get to know new technologies and people.
         </p>
         <p>
-          I speak <img alt="" src={denmark} className="flag" /> Danish, <img alt="" src={usa} className="flag" /> English and{' '}
-          <img alt="" src={germany} className="flag" /> German.
+          I speak <img alt="" src={denmark} className="flag" /> Danish, <img alt="" src={germany} className="flag" /> German
+          and <img alt="" src={usa} className="flag" /> English.
         </p>
       </div>
       <div>
         <h2>Technologies</h2>
         <p>Some of the technologies I utilize:</p>
-        <ul className="tech-list">
-          <li className="title">Languages:</li>
-          {languages.map((item, index) => (
-            <li key={index} className="item">
-              {item.icon && <img alt="" src={item.icon} className="item-logo" />}
-              {item.text}
-            </li>
-          ))}
-          <li className="title">Frontend:</li>
-          {frontend.map((item, index) => (
-            <li key={index} className="item">
-              {item.icon && <img alt="" src={item.icon} className="item-logo" />}
-              {item.text}
-            </li>
-          ))}
-          <li className="title">Backend:</li>
-          {backend.map((item, index) => (
-            <li key={index} className="item">
-              {item.icon ? <img alt="" src={item.icon} className="item-logo" /> : null}
-              {item.text}
-            </li>
-          ))}
-        </ul>
+        <SkillsList title="Frontend" list={frontend} />
+        <SkillsList title="Backend" list={backend} />
+        <SkillsList title="Languages" list={languages} />
         <p>
           Beyond this, I have experience with range of other frameworks, libraries, technologies and services, notably:{' '}
           <i>
@@ -198,7 +81,8 @@ const IndexPage = ({ data }) => (
         <p>A few selected projects I build:</p>
         <ul>
           <li>
-            Co-developed (in a team and independently) a ReactJS app for a e-learning startup in Berlin. <br />
+            Developed (in team and independently) a ReactJS app using test driven development for a e-learning startup in
+            Berlin. <br />
             <small>
               Customer: <b>Wonderwerk.co</b>
             </small>

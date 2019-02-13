@@ -56,9 +56,12 @@
   }
 }
 
-.tech-list {
-  list-style: none;
-  padding: 0;
+.skills-list {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 15px 0;
+  }
 
   li {
     display: inline-block;
@@ -67,6 +70,7 @@
 
   .title {
     display: block;
+    margin: 0;
   }
 
   .item {
@@ -79,6 +83,7 @@
   .item-logo {
     vertical-align: middle;
     margin-right: 5px;
+    max-height: 21px;
   }
 }
 
