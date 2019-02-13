@@ -3,6 +3,7 @@ import denmark from './denmark.svg';
 import external from './external.svg';
 import flask from './flask.svg';
 import germany from './germany.svg';
+import gimp from './gimp.svg';
 import github from './github.svg';
 import graphql from './graphql.svg';
 import grunt from './grunt.svg';
@@ -11,8 +12,10 @@ import jest from './jest.svg';
 import linkedin from './linkedin.svg';
 import mail from './mail.svg';
 import node from './node.svg';
+import npm from './npm.svg';
 import phone from './phone.svg';
 import php from './php.svg';
+import pwa from './pwa.svg';
 import python from './python.svg';
 import react from './react.svg';
 import redux from './redux.svg';
@@ -42,4 +45,7 @@ export {
   php,
   redux,
   jest,
+  gimp,
+  npm,
+  pwa,
 };
