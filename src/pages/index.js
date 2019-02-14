@@ -49,7 +49,7 @@ const IndexPage = ({ data }) => (
       <div>
         <h2>About me</h2>
         <p>
-          Fullstack developer <b>— specializing in Frontend –</b> living in Berlin with 10 years of experience planning,
+          Fullstack developer <b>— specializing in frontend —</b> living in Berlin with 10 years of experience planning,
           programming and deploying a wide range of web apps, both frontend and backend. I provide the technical and business
           expertise to bring your projects and ideas to life. I have a good eye for UX/UI, am resourceful and good problem
           solver. I welcome challenges and the possibility to get to know new technologies and people.
