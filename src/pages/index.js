@@ -10,14 +10,14 @@ import { gitdude, me } from '../assets/img';
 
 const IndexPage = ({ data }) => (
   <div className="frontpage">
-    <Helmet title={`Fullstack Developer in Berlin | Lasse T. | ${data.site.siteMetadata.title}`} />
+    <Helmet title={`Frontend Developer in Berlin | Lasse T. | ${data.site.siteMetadata.title}`} />
     <div>
       <div className="info">
         <img alt="" src={me} className="pic" />
         <h1 className="title">
           <span className="title-passive">I am</span> Lasse
         </h1>
-        <h2 className="sub">Fullstack developer in Berlin seeking interesting projects</h2>
+        <h2 className="sub">Frontend developer in Berlin seeking interesting projects</h2>
         <ul className="links">
           <li>
             <img alt="" src={phone} />
@@ -49,10 +49,10 @@ const IndexPage = ({ data }) => (
       <div>
         <h2>About me</h2>
         <p>
-          Fullstack developer <b>— specializing in frontend —</b> living in Berlin with 10 years of experience planning,
-          programming and deploying a wide range of web apps, both frontend and backend. I provide the technical and business
-          expertise to bring your projects and ideas to life. I have a good eye for UX/UI, am resourceful and good problem
-          solver. I welcome challenges and the possibility to get to know new technologies and people.
+          Frontend developer with 10 years of experience <i>(including backend)</i> in planning, programming and deploying a
+          wide range of web apps. I provide the technical and business expertise to bring your projects and ideas to life. I
+          have a good eye for UX/UI, a good problem solver and strive to write high-quality code (simple, structured and
+          maintainable). I welcome challenges and the possibility to get to know new technologies and people.
         </p>
         <p>
           I speak <img alt="" src={denmark} className="flag" /> Danish, <img alt="" src={germany} className="flag" /> German
