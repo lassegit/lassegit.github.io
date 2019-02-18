@@ -78,13 +78,18 @@ const IndexPage = ({ data }) => (
 
       <div>
         <h2>Projects</h2>
-        <p>A few selected projects I build:</p>
+        <p>Selected projects I build and/or was part of:</p>
         <ul>
           <li>
             Developed (in team and independently) a ReactJS app using test driven development for a e-learning startup in
             Berlin. <br />
             <small>
               Customer: <b>Wonderwerk.co</b>
+              <br />
+              URL:{' '}
+              <a href="https://www.wonderwerk.co/" target="_blank" rel="noopener noreferrer">
+                wonderwerk.co
+              </a>
             </small>
           </li>
           <li>
@@ -92,14 +97,21 @@ const IndexPage = ({ data }) => (
             and advanced data export functionality. <br />
             <small>
               Customer: <b>Danish Ministry of Higher Education and Science.</b>
+              <br />
+              URL: <b>Not publicly available.</b>
             </small>
           </li>
           <li>
-            Custom integration bridge between Cartodb and Podio management tool that displays geodata on various maps. Build
-            using Laravel and Mysql.
+            Custom integration between Cartodb and Podio management tool that displays geodata on different maps. Backend
+            build using Laravel and Mysql.
             <br />
             <small>
               Customer: <b>The Foundation for Environmental Education.</b>
+              <br />
+              URL:{' '}
+              <a href="http://www.fee.global/" target="_blank" rel="noopener noreferrer">
+                fee.global
+              </a>
             </small>
           </li>
           <li>
@@ -107,6 +119,11 @@ const IndexPage = ({ data }) => (
             <br />
             <small>
               Customer: <b>Danish Environmental Board of Appeal.</b>
+              <br />
+              Url:{' '}
+              <a href="https://www.fredninger.dk/" target="_blank" rel="noopener noreferrer">
+                fredninger.dk
+              </a>
             </small>
           </li>
           <li>
@@ -114,13 +131,21 @@ const IndexPage = ({ data }) => (
             using Express, ES6, Jade, Scss, Angular and Elasticsearch.
             <br />
             <small>
-              Customer: <b>The National Museum of Denmark.</b>
+              Customer: <b>The National Museum of Denmark.</b> <br />
+              URL:{' '}
+              <a href="https://natmus.dk/" target="_blank" rel="noopener noreferrer">
+                natmus.dk
+              </a>
             </small>
           </li>
           <li>
             Build various frontend functionality and UX combining Angular and geodata for a danish housing startup. <br />
             <small>
               Customer: <b>Bolighed</b>
+              Url:{' '}
+              <a href="https://bolighed.dk" target="_blank" rel="noopener noreferrer">
+                bolighed.dk
+              </a>
             </small>
           </li>
         </ul>
@@ -161,7 +186,9 @@ const IndexPage = ({ data }) => (
           tips as comment on each github commit. It is build with an isomorphic express setup using ReactJS and GraphQL:
         </p>
         <p>
-          <img src={gitdude} className="portfolio-image" alt="Gitdude screenshot" />
+          <a href="https://gitdude.com" className="borderless">
+            <img src={gitdude} className="portfolio-image" alt="Gitdude screenshot" />
+          </a>
         </p>
       </div>
     </div>
