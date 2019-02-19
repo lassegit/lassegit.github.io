@@ -86,7 +86,7 @@ const IndexPage = ({ data }) => (
             <small>
               Customer: <b>Wonderwerk.co</b>
               <br />
-              URL:{' '}
+              Url:{' '}
               <a href="https://www.wonderwerk.co/" target="_blank" rel="noopener noreferrer">
                 wonderwerk.co
               </a>
@@ -98,7 +98,7 @@ const IndexPage = ({ data }) => (
             <small>
               Customer: <b>Danish Ministry of Higher Education and Science.</b>
               <br />
-              URL: <b>Not publicly available.</b>
+              Url: <b>Not publicly available.</b>
             </small>
           </li>
           <li>
@@ -108,7 +108,7 @@ const IndexPage = ({ data }) => (
             <small>
               Customer: <b>The Foundation for Environmental Education.</b>
               <br />
-              URL:{' '}
+              Url:{' '}
               <a href="http://www.fee.global/" target="_blank" rel="noopener noreferrer">
                 fee.global
               </a>
@@ -132,7 +132,7 @@ const IndexPage = ({ data }) => (
             <br />
             <small>
               Customer: <b>The National Museum of Denmark.</b> <br />
-              URL:{' '}
+              Url:{' '}
               <a href="https://natmus.dk/" target="_blank" rel="noopener noreferrer">
                 natmus.dk
               </a>
@@ -142,6 +142,7 @@ const IndexPage = ({ data }) => (
             Build various frontend functionality and UX combining Angular and geodata for a danish housing startup. <br />
             <small>
               Customer: <b>Bolighed</b>
+              <br />
               Url:{' '}
               <a href="https://bolighed.dk" target="_blank" rel="noopener noreferrer">
                 bolighed.dk
