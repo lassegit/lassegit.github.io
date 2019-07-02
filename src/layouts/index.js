@@ -7,25 +7,30 @@ import { favicon } from '../assets/img';
 import '../assets/scss/style.scss';
 
 const Layout = ({ children, location }) => (
-  <div className="wrapper">
-    <Helmet
-      link={[
-        {
-          name: 'alternate',
-          type: 'application/rss+xml',
-          title: 'rss',
-          href: '/rss.xml',
-        },
-        {
-          rel: 'icon',
-          type: 'image/png',
-          href: favicon,
-        },
-      ]}
-    />
-    <Header location={location} />
-    <div>{children()}</div>
-    <Footer />
+  <div>
+    <div className="alert">
+      NOT AVAILABLE before: <b>4th of November &apos;19</b>.
+    </div>
+    <div className="wrapper">
+      <Helmet
+        link={[
+          {
+            name: 'alternate',
+            type: 'application/rss+xml',
+            title: 'rss',
+            href: '/rss.xml',
+          },
+          {
+            rel: 'icon',
+            type: 'image/png',
+            href: favicon,
+          },
+        ]}
+      />
+      <Header location={location} />
+      <div>{children()}</div>
+      <Footer />
+    </div>
   </div>
 );
 

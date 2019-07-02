@@ -17,7 +17,16 @@ const IndexPage = ({ data }) => (
         <h1 className="title">
           <span className="title-passive">I am</span> Lasse
         </h1>
-        <h2 className="sub">Fullstack developer in Berlin seeking interesting projects</h2>
+        <h2 className="sub">
+          Experienced Fullstack developer seeking challenging projects{' '}
+          <small>
+            (
+            <span role="img" aria-label="Location pin">
+              📍
+            </span>{' '}
+            Berlin)
+          </small>
+        </h2>
         <ul className="links">
           <li>
             <img alt="" src={phone} />
@@ -55,9 +64,11 @@ const IndexPage = ({ data }) => (
           maintainable). I welcome challenges and the possibility to get to know new technologies and people.
         </p>
         <p>
-          I speak <img alt="" src={denmark} className="flag" /> Danish, <img alt="" src={germany} className="flag" /> German
-          and <img alt="" src={usa} className="flag" /> English.
+          I speak <img alt="Danish flag" src={denmark} className="flag" /> Danish,{' '}
+          <img alt="German flag" src={germany} className="flag" /> German and{' '}
+          <img alt="English flag" src={usa} className="flag" /> English.
         </p>
+        <p>I prefer to work on site with the clients and team.</p>
       </div>
       <div>
         <h2>Technologies</h2>
