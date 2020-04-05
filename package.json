@@ -3,6 +3,10 @@
   "description": "",
   "version": "1.0.0",
   "author": "Lasse T. <lassetange@gmail.com>",
+  "engines": {
+    "node": "8.x"
+  },
+  "engineStrict": true,
   "dependencies": {
     "gatsby": "^1.9.270",
     "gatsby-link": "^1.6.44",
