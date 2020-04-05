@@ -168,6 +168,10 @@ const IndexPage = ({ data }) => (
         <p>I also developed and maintain various open source projets:</p>
         <ul>
           <li>
+            <a href="https://www.npmjs.com/package/react-collapse-simple">react-collapse-simple</a>: Simple library for
+            collapsing and expanding content with sliding animation (typescript)
+          </li>
+          <li>
             <a href="https://github.com/lassegit/react-simple-social">react-simple-social</a>: Add all social share links
             through one simple and lightweight React component.
           </li>
