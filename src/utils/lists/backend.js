@@ -26,6 +26,9 @@ const backend = [
   {
     text: 'MongoDB',
   },
+  {
+    text: 'Next.js',
+  },
 ];
 
 export default backend;
