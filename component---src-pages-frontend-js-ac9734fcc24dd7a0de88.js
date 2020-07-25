@@ -1,2 +1,0 @@
-webpackJsonp([81095835210151],{208:function(t,e,n){"use strict";e.__esModule=!0;var c=n(54),o=[{text:"React",icon:c.react},{text:"Redux",icon:c.redux},{text:"Immutable"},{text:"Jest/enzyme",icon:c.jest},{text:"CSS-in-JS"},{text:"Storybook"},{text:"Webpack",icon:c.webpack},{text:"PWA",icon:c.pwa},{text:"Npm",icon:c.npm},{text:"Grunt",icon:c.grunt},{text:"Sass",icon:c.sass},{text:"Gimp",icon:c.gimp}];e.default=o,t.exports=e.default}});
-//# sourceMappingURL=component---src-pages-frontend-js-ac9734fcc24dd7a0de88.js.map
