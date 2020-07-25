@@ -9,7 +9,7 @@ import '../assets/scss/style.scss';
 const Layout = ({ children, location }) => (
   <div>
     <div className="alert">
-      NOT AVAILABLE until: <b>Juli 2020</b>
+      NOT AVAILABLE until: <b>September 2020</b>
     </div>
     <div className="wrapper">
       <Helmet
