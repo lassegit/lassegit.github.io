@@ -92,6 +92,19 @@ const IndexPage = ({ data }) => (
         <p>Selected projects I build and/or was part of:</p>
         <ul>
           <li>
+            Developed Germany&apos;s first complete online platform for digital car purchase using ReactJS and related
+            ecosystem. My role was developer/tech lead and almost 2 year duration.
+            <br />
+            <small>
+              Customer: <b>hey.car</b>
+              <br />
+              Url:{' '}
+              <a href="https://hey.car/" target="_blank" rel="noopener noreferrer">
+                hey.car
+              </a>
+            </small>
+          </li>
+          <li>
             Developed (in team and independently) a ReactJS app using test driven development for a e-learning startup in
             Berlin. <br />
             <small>
