@@ -181,6 +181,12 @@ const IndexPage = ({ data }) => (
         <p>I also developed and maintain various open source projets:</p>
         <ul>
           <li>
+            <a href="https://packagecontrol.io/packages/Sublime%20ES7%20React%20Redux%20ReactNative%20JS%20snippets">
+              Popular package
+            </a>{' '}
+            for ES7, React, Redux and React​Native snippets for Sublime Editor (JS & TS).
+          </li>
+          <li>
             <a href="https://www.npmjs.com/package/react-collapse-simple">react-collapse-simple</a>: Simple library for
             collapsing and expanding content with sliding animation (typescript)
           </li>
@@ -211,13 +217,12 @@ const IndexPage = ({ data }) => (
 
         <h3>Latest personal project</h3>
         <p>
-          My latest project is <a href="https://gitdude.com">gitdude.com</a>, a developer service that adds code improvements
-          tips as comment on each github commit. It is build with an isomorphic express setup using ReactJS and GraphQL:
+          My latest project is gitdude.com (<a href="https://github.com/lassegit/gitdude.com">github repository</a>), a
+          developer service that adds code improvements tips as comment on each github commit. It is build with an isomorphic
+          express setup using ReactJS and GraphQL:
         </p>
         <p>
-          <a href="https://gitdude.com" className="borderless">
-            <img src={gitdude} className="portfolio-image" alt="Gitdude screenshot" />
-          </a>
+          <img src={gitdude} className="portfolio-image" alt="Gitdude screenshot" />
         </p>
       </div>
     </div>
