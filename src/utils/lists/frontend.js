@@ -7,6 +7,10 @@ const frontend = [
     icon: react,
   },
   {
+    text: 'React Native',
+    icon: react,
+  },
+  {
     text: 'Redux',
     icon: redux,
   },

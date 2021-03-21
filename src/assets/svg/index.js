@@ -20,6 +20,7 @@ import python from './python.svg';
 import react from './react.svg';
 import redux from './redux.svg';
 import sass from './sass.svg';
+import typescript from './typescript.svg';
 import usa from './usa.svg';
 import webpack from './webpack.svg';
 
@@ -48,4 +49,5 @@ export {
   gimp,
   npm,
   pwa,
+  typescript,
 };
