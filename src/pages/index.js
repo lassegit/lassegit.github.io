@@ -96,6 +96,18 @@ const IndexPage = ({ data }) => (
         <p>Selected projects I build and/or was part of:</p>
         <ul>
           <li>
+            Developed native mobile app for a crypto bank using React Native, Typescript and GraphQL.
+            <br />
+            <small>
+              Customer: <b>nuri.com</b>
+              <br />
+              Url:{' '}
+              <a href="https://nuri.com/" target="_blank" rel="noopener noreferrer">
+                nuri.com
+              </a>
+            </small>
+          </li>
+          <li>
             Developed Germany&apos;s first complete online platform for digital car purchase using ReactJS and related
             ecosystem. My role was developer/tech lead and almost 2 year duration.
             <br />
