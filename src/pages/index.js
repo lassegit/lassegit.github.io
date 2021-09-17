@@ -72,7 +72,6 @@ const IndexPage = ({ data }) => (
           <img alt="German flag" src={germany} className="flag" /> German and{' '}
           <img alt="English flag" src={usa} className="flag" /> English.
         </p>
-        <p>I prefer to work on site with the clients and team.</p>
       </div>
       <div>
         <h2>Technologies</h2>
