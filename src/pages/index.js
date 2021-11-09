@@ -49,7 +49,7 @@ const IndexPage = ({ data }) => (
       <div>
         <h2>About me</h2>
         <p>
-          Frontend developer with over 10 years of experience in planning, architecturing and building web and mobile apps.
+          Frontend developer with over 10 years of experience in planning, architecting and building web and mobile apps.
           Additionally I have considerable backend experience, which allows me to either develop various backend solutions,
           when needed, or work effortlessly together with backend developers.
         </p>
