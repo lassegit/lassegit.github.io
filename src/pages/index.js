@@ -17,16 +17,7 @@ const IndexPage = ({ data }) => (
         <h1 className="title">
           <span className="title-passive">I am</span> Lasse
         </h1>
-        <h2 className="sub">
-          Experienced Fullstack developer seeking challenging projects{' '}
-          <small>
-            (
-            <span role="img" aria-label="Location pin">
-              📍
-            </span>{' '}
-            Berlin)
-          </small>
-        </h2>
+        <h2 className="sub">Experienced frontend developer seeking challenging projects </h2>
         <ul className="links">
           <li>
             <img alt="" src={phone} />
@@ -58,19 +49,33 @@ const IndexPage = ({ data }) => (
       <div>
         <h2>About me</h2>
         <p>
-          Fullstack developer with 10 years of experience in planning, programming and deploying a wide range of web apps{' '}
-          <i>(frontend focus)</i>. I provide the technical and business expertise to bring your projects and ideas to life. I
-          have a good eye for UX/UI, a good problem solver and strive to write high-quality code (simple, structured and
-          maintainable). I welcome challenges and the possibility to get to know new technologies and people.
+          Frontend developer with over 10 years of experience in planning, architecturing and building web and mobile apps.
+          Additionally I have considerable backend experience, which allows me to either develop various backend solutions,
+          when needed, or work effortlessly together with backend developers.
         </p>
         <p>
-          I can lead teams and ensure high performance, maintainable code and cutting-edge solutions. I am excellent at
-          spotting problems and solving them together with a team.
+          I provide the technical and business expertise to bring your projects and ideas to life. I have a good eye for
+          UX/UI, I am a good problem solver and strive to write high-quality code (simple, testable and maintainable). I
+          welcome challenges and the possibility to get to know new technologies and people.
+        </p>
+        <p>
+          When leading teams I value a results over processes, personal responsibility over micro-management and innovation
+          over dictates. I adhere to the principles behind the infamous{' '}
+          <a href="https://agilemanifesto.org/principles.html">agile manifesto</a>.
         </p>
         <p>
           I speak <img alt="Danish flag" src={denmark} className="flag" /> Danish,{' '}
           <img alt="German flag" src={germany} className="flag" /> German and{' '}
           <img alt="English flag" src={usa} className="flag" /> English.
+        </p>
+        <p>
+          <span role="img" aria-label="Location pin">
+            📍
+          </span>{' '}
+          Living between Berlin and Denmark.
+        </p>
+        <p>
+          <i>(Also interested in more quirky projects such startups with me as partner or similar.)</i>
         </p>
       </div>
       <div>
