@@ -10,7 +10,7 @@ import { gitdude, me } from '../assets/img';
 
 const IndexPage = ({ data }) => (
   <div className="frontpage">
-    <Helmet title={`Fullstack Developer in Berlin | Lasse T. | ${data.site.siteMetadata.title}`} />
+    <Helmet title={`Frontend Developer | Lasse T. | ${data.site.siteMetadata.title}`} />
     <div>
       <div className="info">
         <img alt="" src={me} className="pic" />
