@@ -71,7 +71,7 @@ const IndexPage = ({ data }) => (
         <p>
           <span role="img" aria-label="Location pin">
             📍
-          </span>{' '}
+          </span>
           Living between Berlin and Denmark.
         </p>
         <p>
