@@ -10,14 +10,14 @@ import { gitdude, me } from '../assets/img';
 
 const IndexPage = ({ data }) => (
   <div className="frontpage">
-    <Helmet title={`Frontend Developer | Lasse T. | ${data.site.siteMetadata.title}`} />
+    <Helmet title={`Fullstack Developer | Lasse T. | ${data.site.siteMetadata.title}`} />
     <div>
       <div className="info">
         <img alt="" src={me} className="pic" />
         <h1 className="title">
           <span className="title-passive">I am</span> Lasse
         </h1>
-        <h2 className="sub">Experienced frontend developer seeking challenging projects </h2>
+        <h2 className="sub">Experienced fullstack developer seeking challenging projects</h2>
         <ul className="links">
           <li>
             <img alt="" src={phone} />
@@ -49,9 +49,8 @@ const IndexPage = ({ data }) => (
       <div>
         <h2>About me</h2>
         <p>
-          Frontend developer with over 10 years of experience in planning, architecting and building web and mobile apps.
-          Additionally I have considerable backend experience, which allows me to either develop various backend solutions,
-          when needed, or work effortlessly together with backend developers.
+          Fullstack developer with over 10 years of experience in planning, architecting and building web and mobile apps{' '}
+          <i>(frontend focus)</i>.
         </p>
         <p>
           I provide the technical and business expertise to bring your projects and ideas to life. I have a good eye for
@@ -75,7 +74,7 @@ const IndexPage = ({ data }) => (
           Living between Berlin and Denmark.
         </p>
         <p>
-          <i>(Also interested in more quirky projects such startups with me as partner or similar.)</i>
+          <i>(Also interested in more quirky projects with me as partner or fixed price.)</i>
         </p>
       </div>
       <div>
