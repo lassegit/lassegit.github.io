@@ -99,8 +99,8 @@ const IndexPage = ({ data }) => (
         <p>Selected projects I build and/or was part of:</p>
         <ul>
           <li>
-            Developed native mobile and web app for a delivery service using React (Native), Typescript, GraphQL and
-            Storybook. Additionally I tutored team mates and architectured the apps.
+            Developed and architectured native mobile and web app for the delivery service using React (Native), Typescript,
+            GraphQL and Storybook. Additionally I tutored team mates.
             <br />
             <small>
               Customer: <b>alpakas.app</b>
