@@ -99,6 +99,19 @@ const IndexPage = ({ data }) => (
         <p>Selected projects I build and/or was part of:</p>
         <ul>
           <li>
+            Developed native mobile and web app for a delivery service using React (Native), Typescript, GraphQL and
+            Storybook. Additionally I tutored team mates and architectured the apps.
+            <br />
+            <small>
+              Customer: <b>alpakas.app</b>
+              <br />
+              Url:{' '}
+              <a href="https://alpakas.app/" target="_blank" rel="noopener noreferrer">
+                alpakas.app
+              </a>
+            </small>
+          </li>
+          <li>
             Developed native mobile app for a crypto bank using React Native, Typescript and GraphQL.
             <br />
             <small>
