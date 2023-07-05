@@ -1,12 +1,13 @@
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import React from 'react';
+import aihelperbotImage from '../assets/img/aihelperbot.com.webp';
 import backend from '../utils/lists/backend';
 import frontend from '../utils/lists/frontend';
 import languages from '../utils/lists/languages';
 import SkillsList from '../components/SkillsList';
 import { denmark, germany, github, graphql, linkedin, mail, phone, usa } from '../assets/svg';
-import { gitdude, me } from '../assets/img';
+import { me } from '../assets/img';
 
 const IndexPage = ({ data }) => (
   <div className="frontpage">
@@ -249,12 +250,13 @@ const IndexPage = ({ data }) => (
 
         <h3>Latest personal project</h3>
         <p>
-          My latest project is gitdude.com (<a href="https://github.com/lassegit/gitdude.com">github repository</a>), a
-          developer service that adds code improvements tips as comment on each github commit. It is build with an isomorphic
-          express setup using ReactJS and GraphQL:
+          AI-powered SQL generator and next generation business intelligence tool,{' '}
+          <a href="https://aihelperbot.com/">aihelperbot.com</a>. Free tier included.
         </p>
         <p>
-          <img src={gitdude} className="portfolio-image" alt="Gitdude screenshot" />
+          <a href="https://aihelperbot.com" style={{ border: 'none' }}>
+            <img src={aihelperbotImage} className="portfolio-image" alt="aihelperbot.com screenshot" />
+          </a>
         </p>
       </div>
     </div>
