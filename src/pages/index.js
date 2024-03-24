@@ -6,7 +6,7 @@ import backend from '../utils/lists/backend';
 import frontend from '../utils/lists/frontend';
 import languages from '../utils/lists/languages';
 import SkillsList from '../components/SkillsList';
-import { denmark, germany, github, graphql, linkedin, mail, phone, usa } from '../assets/svg';
+import { denmark, germany, github, graphql, linkedin, usa } from '../assets/svg';
 import { me } from '../assets/img';
 
 const IndexPage = ({ data }) => (
@@ -20,18 +20,6 @@ const IndexPage = ({ data }) => (
         </h1>
         <h2 className="sub">Experienced fullstack developer seeking challenging projects</h2>
         <ul className="links">
-          <li>
-            <img alt="" src={phone} />
-            <a href="tel:+491621604084" title="Call me or send me a message">
-              +49 162 160 4084
-            </a>
-          </li>
-          <li>
-            <img alt="" src={mail} />{' '}
-            <a href="mailto:lassetange@gmail.com" title="Send me an email">
-              lassetange@gmail.com
-            </a>
-          </li>
           <li>
             <img alt="" src={github} />{' '}
             <a href="https://github.com/lassegit" title="Github profile">
@@ -251,10 +239,10 @@ const IndexPage = ({ data }) => (
         <h3>Latest personal project</h3>
         <p>
           AI-powered SQL generator and next generation business intelligence tool,{' '}
-          <a href="https://aihelperbot.com/">aihelperbot.com</a>. Free tier included.
+          <a href="https://www.sqlai.ai/">www.sqlai.ai</a>. Free tier included.
         </p>
         <p>
-          <a href="https://aihelperbot.com" style={{ border: 'none' }}>
+          <a href="https://www.sqlai.ai" style={{ border: 'none' }}>
             <img src={aihelperbotImage} className="portfolio-image" alt="aihelperbot.com screenshot" />
           </a>
         </p>
