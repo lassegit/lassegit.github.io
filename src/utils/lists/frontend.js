@@ -1,5 +1,4 @@
-import { gimp, grunt, jest, npm, pwa, react, redux, sass, webpack } from '../../assets/svg';
-import { immutable } from '../../assets/img';
+import { jest, pwa, react, redux, webpack } from '../../assets/svg';
 
 const frontend = [
   {
@@ -15,11 +14,10 @@ const frontend = [
     icon: redux,
   },
   {
-    text: 'Immutable',
-    icon: immutable,
+    text: 'Tailwind',
   },
   {
-    text: 'Jest/enzyme',
+    text: 'Jest (testing)',
     icon: jest,
   },
   {
@@ -35,22 +33,6 @@ const frontend = [
   {
     text: 'PWA',
     icon: pwa,
-  },
-  {
-    text: 'Npm',
-    icon: npm,
-  },
-  {
-    text: 'Grunt',
-    icon: grunt,
-  },
-  {
-    text: 'Sass',
-    icon: sass,
-  },
-  {
-    text: 'Gimp',
-    icon: gimp,
   },
 ];
 

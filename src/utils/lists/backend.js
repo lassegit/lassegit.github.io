@@ -6,6 +6,14 @@ const backend = [
     icon: node,
   },
   {
+    text: 'Postgres',
+    icon: database,
+  },
+  {
+    text: 'MySQL',
+    icon: database,
+  },
+  {
     text: 'ExpressJS',
   },
   {
@@ -15,10 +23,6 @@ const backend = [
   {
     text: 'GraphQL',
     icon: graphql,
-  },
-  {
-    text: 'MySQL & Postgres',
-    icon: database,
   },
   {
     text: 'Nginx & Apache',

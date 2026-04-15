@@ -1,12 +1,15 @@
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import React from 'react';
-import aihelperbotImage from '../assets/img/aihelperbot.com.webp';
 import backend from '../utils/lists/backend';
+import chartmaker from '../assets/img/chartmakerio.png';
 import frontend from '../utils/lists/frontend';
 import languages from '../utils/lists/languages';
 import SkillsList from '../components/SkillsList';
-import { denmark, germany, github, graphql, linkedin, usa } from '../assets/svg';
+import sqlai from '../assets/img/sqlai.ai.png';
+import viewdiff from '../assets/img/viewdiff.png';
+import websitefeedback from '../assets/img/websitefeedback.png';
+import { denmark, germany, github, graphql, linkedin, mail, phone, usa } from '../assets/svg';
 import { me } from '../assets/img';
 
 const IndexPage = ({ data }) => (
@@ -20,6 +23,18 @@ const IndexPage = ({ data }) => (
         </h1>
         <h2 className="sub">Experienced fullstack developer seeking challenging projects</h2>
         <ul className="links">
+          <li>
+            <img alt="" src={phone} />
+            <a href="tel:+4550322221" title="Call me or send me a message">
+              +45 503 2222 1
+            </a>
+          </li>
+          <li>
+            <img alt="" src={mail} />{' '}
+            <a href="mailto:lassetange@gmail.com" title="Send me an email">
+              lassetange@gmail.com
+            </a>
+          </li>
           <li>
             <img alt="" src={github} />{' '}
             <a href="https://github.com/lassegit" title="Github profile">
@@ -38,13 +53,17 @@ const IndexPage = ({ data }) => (
       <div>
         <h2>About me</h2>
         <p>
-          Fullstack developer with over 10 years of experience in planning, architecting and building web and mobile apps{' '}
+          Fullstack developer with over 15 years of experience in planning, architecting and building web and mobile apps{' '}
           <i>(frontend focus)</i>.
         </p>
         <p>
           I provide the technical and business expertise to bring your projects and ideas to life. I have a good eye for
           UX/UI, I am a good problem solver and strive to write high-quality code (simple, testable and maintainable). I
           welcome challenges and the possibility to get to know new technologies and people.
+        </p>
+        <p>
+          I have worked extensively with various AI technologies since OpenAI released its earliest model, GPT-3. I know how
+          to optimize, embed, search, and apply AI to business and development processes to solve real problems.
         </p>
         <p>
           When leading teams I value a results over processes, personal responsibility over micro-management and innovation
@@ -60,27 +79,18 @@ const IndexPage = ({ data }) => (
           <span role="img" aria-label="Location pin">
             📍
           </span>
-          Living between Berlin and Denmark.
-        </p>
-        <p>
-          <i>(Also interested in more quirky projects with me as partner or fixed price.)</i>
+          Live in Copenhagen.
         </p>
       </div>
       <div>
         <h2>Technologies</h2>
-        <p>Some of the technologies I utilize:</p>
+        <p>
+          I constantly stay up to date on the latest tech stacks and libraries to ensure best possible solutions. Here are
+          some of the technologies I utilize:
+        </p>
         <SkillsList title="Frontend" list={frontend} />
         <SkillsList title="Backend" list={backend} />
         <SkillsList title="Languages" list={languages} />
-        <p>
-          Beyond this, I have experience with range of other frameworks, libraries, technologies and services, notably:{' '}
-          <i>
-            BackboneJS, Bootstrap, Plone CMS, NPM, Websockets, jQuery, Laravel, Linux server configuration and deployment,
-            React Native, Git, Chrome extension development, geospatial data, LeafletJS, Google maps API, Cartodb, Varnish,
-            Memcache, Wordpress, Drupal, responsive first, user experience, Gimp, web accessibility, SEO, Google Analytics,
-            Stripe.
-          </i>
-        </p>
       </div>
 
       <div>
@@ -236,14 +246,40 @@ const IndexPage = ({ data }) => (
           </li>
         </ul>
 
-        <h3>Latest personal project</h3>
+        <h3>A few personal projects</h3>
         <p>
-          AI-powered SQL generator and next generation business intelligence tool,{' '}
-          <a href="https://www.sqlai.ai/">www.sqlai.ai</a>. Free tier included.
+          AI-powered SQL generators for database professionals: <a href="https://www.sqlai.ai/">www.sqlai.ai</a>.
         </p>
         <p>
           <a href="https://www.sqlai.ai" style={{ border: 'none' }}>
-            <img src={aihelperbotImage} className="portfolio-image" alt="aihelperbot.com screenshot" />
+            <img src={sqlai} className="portfolio-image" alt="sqlai.ai screenshot" />
+          </a>
+        </p>
+
+        <p>
+          AI-powered diff viewer for professional writers, <a href="https://www.viewdiff.ai/">www.viewdiff.ai</a>.
+        </p>
+        <p>
+          <a href="https://www.viewdiff.ai" style={{ border: 'none' }}>
+            <img src={viewdiff} className="portfolio-image" alt="viewdiff screenshot" />
+          </a>
+        </p>
+
+        <p>
+          AI-powered chart maker: <a href="https://www.chartmaker.io/">www.chartmaker.io</a>.
+        </p>
+        <p>
+          <a href="https://www.chartmaker.io" style={{ border: 'none' }}>
+            <img src={chartmaker} className="portfolio-image" alt="aihelperbot.com screenshot" />
+          </a>
+        </p>
+
+        <p>
+          AI-powered website feedback tool: <a href="https://www.websitefeedback.ai/">www.websitefeedback.ai</a>.
+        </p>
+        <p>
+          <a href="https://www.websitefeedback.ai" style={{ border: 'none' }}>
+            <img src={websitefeedback} className="portfolio-image" alt="aihelperbot.com screenshot" />
           </a>
         </p>
       </div>
