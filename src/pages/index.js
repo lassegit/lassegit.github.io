@@ -9,7 +9,7 @@ import SkillsList from '../components/SkillsList';
 import sqlai from '../assets/img/sqlai.ai.png';
 import viewdiff from '../assets/img/viewdiff.png';
 import websitefeedback from '../assets/img/websitefeedback.png';
-import { denmark, germany, github, graphql, linkedin, mail, phone, usa } from '../assets/svg';
+import { denmark, germany, github, graphql, linkedin, mail, usa } from '../assets/svg';
 import { me } from '../assets/img';
 
 const IndexPage = ({ data }) => (
@@ -23,12 +23,6 @@ const IndexPage = ({ data }) => (
         </h1>
         <h2 className="sub">Experienced fullstack developer seeking challenging projects</h2>
         <ul className="links">
-          <li>
-            <img alt="" src={phone} />
-            <a href="tel:+4550322221" title="Call me or send me a message">
-              +45 503 2222 1
-            </a>
-          </li>
           <li>
             <img alt="" src={mail} />{' '}
             <a href="mailto:lassetange@gmail.com" title="Send me an email">
@@ -54,7 +48,7 @@ const IndexPage = ({ data }) => (
         <h2>About me</h2>
         <p>
           Fullstack developer with over 15 years of experience in planning, architecting and building web and mobile apps{' '}
-          <i>(frontend focus)</i>.
+          <i>(frontend focus)</i>. Besides technical knowledge I have grown startups into successful businesses.
         </p>
         <p>
           I provide the technical and business expertise to bring your projects and ideas to life. I have a good eye for
@@ -63,7 +57,7 @@ const IndexPage = ({ data }) => (
         </p>
         <p>
           I have worked extensively with various AI technologies since OpenAI released its earliest model, GPT-3. I know how
-          to optimize, embed, search, and apply AI to business and development processes to solve real problems.
+          to optimize, search, and apply AI to business and development processes to solve real problems.
         </p>
         <p>
           When leading teams I value a results over processes, personal responsibility over micro-management and innovation
