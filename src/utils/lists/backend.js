@@ -1,16 +1,22 @@
-import { database, node } from '../../assets/svg';
+import { database, graphql, node } from '../../assets/svg';
 
 const backend = [
   {
-    text: 'NodeJS',
+    text: 'Node.js',
     icon: node,
   },
   {
-    text: 'Postgres',
-    icon: database,
+    text: 'GraphQL',
+    icon: graphql,
   },
   {
-    text: 'MySQL',
+    text: 'tRPC',
+  },
+  {
+    text: 'Express',
+  },
+  {
+    text: 'PostgreSQL',
     icon: database,
   },
   {
@@ -22,22 +28,15 @@ const backend = [
     icon: database,
   },
   {
-    text: 'ExpressJS',
+    text: 'MySQL',
+    icon: database,
   },
   {
-    text: 'GraphQL',
+    text: 'Redis',
+    icon: database,
   },
   {
-    text: 'Nginx',
-  },
-  {
-    text: 'Next.js',
-  },
-  {
-    text: 'AstroJS',
-  },
-  {
-    text: 'Agentic Coding CLI',
+    text: 'REST APIs',
   },
 ];
 

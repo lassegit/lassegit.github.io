@@ -6,19 +6,22 @@ const devops = [
     text: 'AWS',
   },
   {
-    text: 'VPS (CLI)',
+    text: 'Docker',
   },
   {
-    text: 'Docker',
+    text: 'Nginx',
+  },
+  {
+    text: 'GitHub Actions',
+  },
+  {
+    text: 'CI/CD',
   },
   {
     text: 'Git',
   },
   {
-    text: 'ESLint',
-  },
-  {
-    text: 'Prettier',
+    text: 'CLI / VPS',
   },
 ];
 

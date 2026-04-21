@@ -2,24 +2,24 @@ import { database, javascript, php, python, typescript } from '../../assets/svg'
 
 const languages = [
   {
-    text: 'Typescript',
+    text: 'TypeScript',
     icon: typescript,
   },
   {
-    text: 'Javascript (ES6)',
+    text: 'JavaScript (ESNext)',
     icon: javascript,
+  },
+  {
+    text: 'SQL',
+    icon: database,
   },
   {
     text: 'Python',
     icon: python,
   },
   {
-    text: 'Php',
+    text: 'PHP',
     icon: php,
-  },
-  {
-    text: 'SQL',
-    icon: database,
   },
 ];
 

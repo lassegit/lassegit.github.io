@@ -1,4 +1,4 @@
-import { jest, react, redux } from '../../assets/svg';
+import { react, redux } from '../../assets/svg';
 
 const frontend = [
   {
@@ -6,22 +6,27 @@ const frontend = [
     icon: react,
   },
   {
+    text: 'Next.js',
+  },
+  {
     text: 'React Native',
     icon: react,
   },
   {
-    text: 'Redux',
+    text: 'Tailwind CSS',
+  },
+  {
+    text: 'shadcn/ui',
+  },
+  {
+    text: 'Redux Toolkit',
     icon: redux,
   },
   {
-    text: 'Nanostores',
+    text: 'Zustand',
   },
   {
-    text: 'Tailwind',
-  },
-  {
-    text: 'Jest',
-    icon: jest,
+    text: 'Vite',
   },
 ];
 

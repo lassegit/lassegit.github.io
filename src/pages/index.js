@@ -87,15 +87,18 @@ const IndexPage = ({ data }) => (
       <div>
         <h2>Technologies</h2>
         <p>
-          I constantly stay up to date on the latest tech stacks and libraries to ensure the best possible solutions. My main
-          focus is the fullstack ecosystem surrounding React and Typescript.
+          I work across the modern TypeScript stack, with React at the center and strong experience spanning frontend
+          architecture, APIs, data modeling, testing, and delivery.
         </p>
-        <p>Here are some of the technologies I utilize or have used:</p>
+        <p>
+          The list below is representative rather than exhaustive, but it covers the technologies I use most often and can
+          step into quickly across the React and TypeScript ecosystem.
+        </p>
         <SkillsList title="Frontend" list={frontend} />
-        <SkillsList title="Backend" list={backend} />
+        <SkillsList title="Backend & Data" list={backend} />
         <SkillsList title="Languages" list={languages} />
-        <SkillsList title="Platform" list={devops} />
-        <SkillsList title="Others" list={other} />
+        <SkillsList title="Testing & Tooling" list={other} />
+        <SkillsList title="Platform & Delivery" list={devops} />
       </div>
 
       <div>

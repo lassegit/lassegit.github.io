@@ -1,14 +1,26 @@
 export default [
   {
-    text: 'Stripe',
+    text: 'Jest',
   },
   {
-    text: 'ShadCN UI',
+    text: 'React Testing Library',
   },
   {
-    text: 'CLI',
+    text: 'Playwright',
   },
   {
-    text: 'CI/CD pipeline',
+    text: 'Storybook',
+  },
+  {
+    text: 'ESLint',
+  },
+  {
+    text: 'Prettier',
+  },
+  {
+    text: 'pnpm',
+  },
+  {
+    text: 'Monorepo',
   },
 ];
