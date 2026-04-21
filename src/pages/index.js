@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
+import ai from '../utils/lists/ai';
 import backend from '../utils/lists/backend';
 import chartmaker from '../assets/img/chartmakerio.png';
 import devops from '../utils/lists/devops';
@@ -136,6 +137,7 @@ const IndexPage = ({ data }) => (
         <SkillsList title="Frontend" list={frontend} />
         <SkillsList title="Backend & Data" list={backend} />
         <SkillsList title="Languages" list={languages} />
+        <SkillsList title="AI" list={ai} />
         <SkillsList title="Testing & Tooling" list={other} />
         <SkillsList title="Platform & Delivery" list={devops} />
       </div>
