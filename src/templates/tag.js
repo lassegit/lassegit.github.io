@@ -1,10 +1,10 @@
-import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
 import React from 'react';
+import { graphql, Link } from 'gatsby';
+import { Helmet } from 'react-helmet';
 
-export default function Template({ pathContext, data }) {
-  const { tag } = pathContext;
+export default function Template({ pageContext, data }) {
+  const { tag } = pageContext;
   const { totalCount } = data.allMarkdownRemark;
   const title = `${tag} | ${data.site.siteMetadata.title}`;
   const posts = data.allMarkdownRemark.edges;
@@ -38,7 +38,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount
@@ -57,6 +57,8 @@ export const pageQuery = graphql`
 `;
 
 Template.propTypes = {
-  pathContext: PropTypes.shape({}).isRequired,
+  pageContext: PropTypes.shape({
+    tag: PropTypes.string.isRequired,
+  }).isRequired,
   data: PropTypes.shape({}).isRequired,
 };

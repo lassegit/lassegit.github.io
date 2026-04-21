@@ -56,11 +56,12 @@ module.exports = {
                 });
               });
             },
+            title: 'lasse.tech RSS Feed',
             query: `
               {
                 allMarkdownRemark(
                   limit: 2000,
-                  sort: { order: DESC, fields: [frontmatter___date] },
+                  sort: { frontmatter: { date: DESC } },
                 ) {
                   edges {
                     node {

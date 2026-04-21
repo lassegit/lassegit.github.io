@@ -1,10 +1,10 @@
-import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import { Helmet } from 'react-helmet';
 import { favicon } from '../assets/img';
 import '../assets/scss/style.scss';
+import Footer from './Footer';
+import Header from './Header';
 
 const Layout = ({ children, location }) => (
   <div>
@@ -12,7 +12,7 @@ const Layout = ({ children, location }) => (
       <Helmet
         link={[
           {
-            name: 'alternate',
+            rel: 'alternate',
             type: 'application/rss+xml',
             title: 'rss',
             href: '/rss.xml',
@@ -25,15 +25,21 @@ const Layout = ({ children, location }) => (
         ]}
       />
       <Header location={location} />
-      <div>{children()}</div>
+      <div>{children}</div>
       <Footer />
     </div>
   </div>
 );
 
 Layout.propTypes = {
-  location: PropTypes.shape({}).isRequired,
-  children: PropTypes.func.isRequired,
+  children: PropTypes.node.isRequired,
+  location: PropTypes.shape({
+    pathname: PropTypes.string,
+  }),
+};
+
+Layout.defaultProps = {
+  location: undefined,
 };
 
 export default Layout;

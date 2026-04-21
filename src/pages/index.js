@@ -1,15 +1,18 @@
-import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import React from 'react';
+import { graphql } from 'gatsby';
+import { Helmet } from 'react-helmet';
 import backend from '../utils/lists/backend';
 import chartmaker from '../assets/img/chartmakerio.png';
+import devops from '../utils/lists/devops';
 import frontend from '../utils/lists/frontend';
 import languages from '../utils/lists/languages';
+import other from '../utils/lists/other';
 import SkillsList from '../components/SkillsList';
 import sqlai from '../assets/img/sqlai.ai.png';
 import viewdiff from '../assets/img/viewdiff.png';
 import websitefeedback from '../assets/img/websitefeedback.png';
-import { denmark, germany, github, graphql, linkedin, mail, usa } from '../assets/svg';
+import { denmark, germany, github, linkedin, mail, usa } from '../assets/svg';
 import { me } from '../assets/img';
 
 const IndexPage = ({ data }) => (
@@ -21,7 +24,7 @@ const IndexPage = ({ data }) => (
         <h1 className="title">
           <span className="title-passive">I am</span> Lasse
         </h1>
-        <h2 className="sub">Experienced Fullstack Developer Seeking Challenging Projects</h2>
+        <h2 className="sub">Experienced Fullstack Developer Seeking Challenging Work</h2>
         <ul className="links">
           <li>
             <img alt="" src={mail} />{' '}
@@ -85,11 +88,14 @@ const IndexPage = ({ data }) => (
         <h2>Technologies</h2>
         <p>
           I constantly stay up to date on the latest tech stacks and libraries to ensure the best possible solutions. My main
-          focus is the fullstack ecosystem surrounding React and Typescript. Here are some of the technologies I utilize:
+          focus is the fullstack ecosystem surrounding React and Typescript.
         </p>
+        <p>Here are some of the technologies I utilize or have used:</p>
         <SkillsList title="Frontend" list={frontend} />
         <SkillsList title="Backend" list={backend} />
         <SkillsList title="Languages" list={languages} />
+        <SkillsList title="Platform" list={devops} />
+        <SkillsList title="Others" list={other} />
       </div>
 
       <div>

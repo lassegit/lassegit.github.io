@@ -1,7 +1,5 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/ssr-apis/
- */
+/* eslint-disable react/prop-types */
+import React from 'react';
+import Layout from './src/components/Layout';
 
-// You can delete this file if you're not using it
+export const wrapPageElement = ({ element, props: { location } }) => <Layout location={location}>{element}</Layout>;

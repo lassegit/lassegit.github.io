@@ -1,7 +1,7 @@
-import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
 import React from 'react';
+import { graphql, Link } from 'gatsby';
+import { Helmet } from 'react-helmet';
 import rss from '../assets/svg/rss.svg';
 
 const Posts = ({ data }) => {
@@ -38,7 +38,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       edges {
         node {
           id

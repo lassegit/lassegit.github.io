@@ -14,10 +14,13 @@ const frontend = [
     icon: redux,
   },
   {
+    text: 'Nanostores',
+  },
+  {
     text: 'Tailwind',
   },
   {
-    text: 'Jest (testing)',
+    text: 'Jest',
     icon: jest,
   },
 ];

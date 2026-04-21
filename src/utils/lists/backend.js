@@ -1,4 +1,4 @@
-import { database, flask, graphql, node } from '../../assets/svg';
+import { database, node } from '../../assets/svg';
 
 const backend = [
   {
@@ -14,30 +14,27 @@ const backend = [
     icon: database,
   },
   {
+    text: 'Prisma',
+    icon: database,
+  },
+  {
+    text: 'Drizzle ORM',
+    icon: database,
+  },
+  {
     text: 'ExpressJS',
   },
   {
-    text: 'Flask',
-    icon: flask,
-  },
-  {
     text: 'GraphQL',
-    icon: graphql,
   },
   {
-    text: 'Nginx & Apache',
-  },
-  {
-    text: 'MongoDB',
+    text: 'Nginx',
   },
   {
     text: 'Next.js',
   },
   {
     text: 'AstroJS',
-  },
-  {
-    text: 'Cloudflare/AWS',
   },
   {
     text: 'Agentic Coding CLI',

@@ -1,9 +1,9 @@
-import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
 import React from 'react';
+import { Link } from 'gatsby';
 
 const Header = ({ location }) => {
-  if (location.pathname === '/') {
+  if (location?.pathname === '/') {
     return null;
   }
 
@@ -22,7 +22,13 @@ const Header = ({ location }) => {
 };
 
 Header.propTypes = {
-  location: PropTypes.shape({}).isRequired,
+  location: PropTypes.shape({
+    pathname: PropTypes.string,
+  }),
+};
+
+Header.defaultProps = {
+  location: undefined,
 };
 
 export default Header;
