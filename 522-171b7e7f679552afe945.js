@@ -1,0 +1,1 @@
+(self.webpackChunksimple_gatsby_blog=self.webpackChunksimple_gatsby_blog||[]).push([[522],{8522:function(){}}]);
