@@ -15,6 +15,45 @@ import websitefeedback from '../assets/img/websitefeedback.png';
 import { denmark, germany, github, linkedin, mail, usa } from '../assets/svg';
 import { me } from '../assets/img';
 
+const personalProjects = [
+  {
+    name: 'SQLAI.ai',
+    url: 'https://www.sqlai.ai/',
+    image: sqlai,
+    alt: 'SQLAI.ai screenshot',
+    summary:
+      'AI-powered SQL workspace for analysts, engineers, and database teams. It helps users generate, explain, and refine SQL faster without sacrificing control.',
+    meta: 'Profitable product and one of the stronger AI-powered SQL tools in its category.',
+  },
+  {
+    name: 'ViewDiff.ai',
+    url: 'https://www.viewdiff.ai/',
+    image: viewdiff,
+    alt: 'ViewDiff.ai screenshot',
+    summary:
+      'AI-assisted diff viewer built for professional writers and editorial workflows. It makes it easier to compare revisions, spot meaning changes, and review drafts with less friction.',
+    meta: 'Live product that is still being actively iterated on and refined.',
+  },
+  {
+    name: 'Chartmaker.io',
+    url: 'https://www.chartmaker.io/',
+    image: chartmaker,
+    alt: 'Chartmaker.io screenshot',
+    summary:
+      'AI-powered chart maker focused on turning rough input and raw data into clean, presentation-ready visuals with minimal setup.',
+    meta: 'Built to shorten the path from idea or dataset to a usable chart.',
+  },
+  {
+    name: 'WebsiteFeedback.ai',
+    url: 'https://www.websitefeedback.ai/',
+    image: websitefeedback,
+    alt: 'WebsiteFeedback.ai screenshot',
+    summary:
+      'AI website feedback tool that reviews landing pages and marketing sites for clarity, positioning, UX, and first-impression issues.',
+    meta: 'Designed to give teams a fast outside perspective before deeper user testing.',
+  },
+];
+
 const IndexPage = ({ data }) => (
   <div className="frontpage">
     <Helmet title={`Fullstack Developer | Lasse T. | ${data.site.siteMetadata.title}`} />
@@ -275,40 +314,27 @@ const IndexPage = ({ data }) => (
 
         <h3>A few personal projects</h3>
         <p>
-          AI-powered SQL generators for database professionals: <a href="https://www.sqlai.ai/">www.sqlai.ai</a>.
+          These are products I started and built outside client work. They show the mix of product thinking, execution, and
+          iteration I bring when moving from idea to something people actually use.
         </p>
-        <p>
-          <a href="https://www.sqlai.ai" style={{ border: 'none' }}>
-            <img src={sqlai} className="portfolio-image" alt="sqlai.ai screenshot" />
-          </a>
-        </p>
-
-        <p>
-          AI-powered diff viewer for professional writers, <a href="https://www.viewdiff.ai/">www.viewdiff.ai</a>.
-        </p>
-        <p>
-          <a href="https://www.viewdiff.ai" style={{ border: 'none' }}>
-            <img src={viewdiff} className="portfolio-image" alt="viewdiff screenshot" />
-          </a>
-        </p>
-
-        <p>
-          AI-powered chart maker: <a href="https://www.chartmaker.io/">www.chartmaker.io</a>.
-        </p>
-        <p>
-          <a href="https://www.chartmaker.io" style={{ border: 'none' }}>
-            <img src={chartmaker} className="portfolio-image" alt="aihelperbot.com screenshot" />
-          </a>
-        </p>
-
-        <p>
-          AI-powered website feedback tool: <a href="https://www.websitefeedback.ai/">www.websitefeedback.ai</a>.
-        </p>
-        <p>
-          <a href="https://www.websitefeedback.ai" style={{ border: 'none' }}>
-            <img src={websitefeedback} className="portfolio-image" alt="aihelperbot.com screenshot" />
-          </a>
-        </p>
+        <div className="personal-projects">
+          {personalProjects.map(project => (
+            <article key={project.name} className="personal-project-card">
+              <div className="personal-project-copy">
+                <h4 className="personal-project-title">
+                  <a href={project.url} target="_blank" rel="noopener noreferrer">
+                    {project.name}
+                  </a>
+                </h4>
+                <p>{project.summary}</p>
+                <p className="personal-project-meta">{project.meta}</p>
+              </div>
+              <a href={project.url} target="_blank" rel="noopener noreferrer" className="personal-project-image-link">
+                <img src={project.image} className="portfolio-image personal-project-image" alt={project.alt} />
+              </a>
+            </article>
+          ))}
+        </div>
       </div>
     </div>
   </div>

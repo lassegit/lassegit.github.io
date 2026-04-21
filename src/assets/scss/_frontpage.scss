@@ -96,6 +96,49 @@
   border-radius: 5px;
 }
 
+.personal-projects {
+  display: grid;
+  gap: 20px;
+}
+
+.personal-project-card {
+  display: block;
+  gap: 18px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #fff 0%, #fafafa 100%);
+}
+
+.personal-project-title {
+  margin: 0 0 10px 0;
+  font-family: $font-bold;
+  font-size: 24px;
+}
+
+.personal-project-copy {
+  margin-bottom: 20px;
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.personal-project-meta {
+  color: #666;
+}
+
+.personal-project-image-link {
+  display: block;
+  border: none !important;
+}
+
+.personal-project-image {
+  display: block;
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
 .frontpage {
   h2 {
     margin-top: 30px;
