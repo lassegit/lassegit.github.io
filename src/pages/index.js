@@ -66,6 +66,10 @@ const IndexPage = ({ data }) => (
           <a href="https://agilemanifesto.org/principles.html">Agile Manifesto</a>.
         </p>
         <p>
+          <a href="https://sometechblog.com/posts/frontend-architecture-decisions/">Read a few of my thoughts</a> on
+          what&apos;s important for ensuring good architecture.
+        </p>
+        <p>
           I speak <img alt="Danish flag" src={denmark} className="flag" /> Danish,{' '}
           <img alt="German flag" src={germany} className="flag" /> German and{' '}
           <img alt="English flag" src={usa} className="flag" /> English.
