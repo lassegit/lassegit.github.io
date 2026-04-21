@@ -41,13 +41,18 @@
 .links {
   list-style: none;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 
   li {
-    line-height: 40px;
+    line-height: inherit;
     @media (min-width: $mobile) {
-      display: inline-block;
-      margin: 3px 8px;
-      width: 230px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
     }
   }
 

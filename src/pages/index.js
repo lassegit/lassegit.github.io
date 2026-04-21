@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => (
         <h1 className="title">
           <span className="title-passive">I am</span> Lasse
         </h1>
-        <h2 className="sub">Experienced fullstack developer seeking challenging projects</h2>
+        <h2 className="sub">Experienced Fullstack Developer Seeking Challenging Projects</h2>
         <ul className="links">
           <li>
             <img alt="" src={mail} />{' '}
@@ -47,22 +47,23 @@ const IndexPage = ({ data }) => (
       <div>
         <h2>About me</h2>
         <p>
-          Fullstack developer with over 15 years of experience in planning, architecting and building web and mobile apps{' '}
-          <i>(frontend focus)</i>. Besides technical knowledge I have grown startups into successful businesses.
+          Full-stack developer with over 15 years of experience planning, architecting, and building web and mobile apps,
+          with a frontend focus. Beyond technical expertise, I have helped grow startups into successful businesses and
+          learned many of the valuable ins and outs of that process.
         </p>
         <p>
           I provide the technical and business expertise to bring your projects and ideas to life. I have a good eye for
-          UX/UI, I am a good problem solver and strive to write high-quality code (simple, testable and maintainable). I
-          welcome challenges and the possibility to get to know new technologies and people.
+          UX/UI, am a strong problem solver, and strive to write high-quality code—simple, testable, and maintainable. I
+          welcome challenges and the chance to work with new technologies and people.
         </p>
         <p>
-          I have worked extensively with various AI technologies since OpenAI released its earliest model, GPT-3. I know how
-          to optimize, search, and apply AI to business and development processes to solve real problems.
+          I have worked extensively with various AI technologies since OpenAI released GPT-3. I know how to optimize, search,
+          and apply AI to business and development processes to solve real problems.
         </p>
         <p>
-          When leading teams I value a results over processes, personal responsibility over micro-management and innovation
+          When leading teams, I value results over processes, personal responsibility over micro-management, and innovation
           over dictates. I adhere to the principles behind the infamous{' '}
-          <a href="https://agilemanifesto.org/principles.html">agile manifesto</a>.
+          <a href="https://agilemanifesto.org/principles.html">Agile Manifesto</a>.
         </p>
         <p>
           I speak <img alt="Danish flag" src={denmark} className="flag" /> Danish,{' '}
@@ -73,14 +74,14 @@ const IndexPage = ({ data }) => (
           <span role="img" aria-label="Location pin">
             📍
           </span>
-          Live in Copenhagen.
+          Based in Copenhagen.
         </p>
       </div>
       <div>
         <h2>Technologies</h2>
         <p>
-          I constantly stay up to date on the latest tech stacks and libraries to ensure best possible solutions. Here are
-          some of the technologies I utilize:
+          I constantly stay up to date on the latest tech stacks and libraries to ensure the best possible solutions. My main
+          focus is the fullstack ecosystem surrounding React and Typescript. Here are some of the technologies I utilize:
         </p>
         <SkillsList title="Frontend" list={frontend} />
         <SkillsList title="Backend" list={backend} />
@@ -89,11 +90,11 @@ const IndexPage = ({ data }) => (
 
       <div>
         <h2>Projects</h2>
-        <p>Selected projects I build and/or was part of:</p>
+        <p>Selected projects I built and/or was part of:</p>
         <ul>
           <li>
-            Developed and architectured native mobile and web app for the delivery service using React (Native), Typescript,
-            GraphQL and Storybook. Additionally I tutored team mates.
+            Developed and architected native mobile and web app for the delivery service using React (Native), TypeScript,
+            GraphQL and Storybook. Additionally I tutored teammates.
             <br />
             <small>
               Customer: <b>alpakas.app</b>
@@ -102,10 +103,12 @@ const IndexPage = ({ data }) => (
               <a href="https://alpakas.app/" target="_blank" rel="noopener noreferrer">
                 alpakas.app
               </a>
+              <br />
+              Date: 2022 - 2022.
             </small>
           </li>
           <li>
-            Developed native mobile app for a crypto bank using React Native, Typescript and GraphQL.
+            Developed native mobile app for a crypto bank using React Native, TypeScript and GraphQL.
             <br />
             <small>
               Customer: <b>nuri.com</b>
@@ -114,11 +117,13 @@ const IndexPage = ({ data }) => (
               <a href="https://nuri.com/" target="_blank" rel="noopener noreferrer">
                 nuri.com
               </a>
+              <br />
+              Date: 2021 - 2021.
             </small>
           </li>
           <li>
-            Developed Germany&apos;s first complete online platform for digital car purchase using ReactJS and related
-            ecosystem. My role was developer/tech lead and almost 2 year duration.
+            Developed Germany&apos;s first complete online platform for digital car purchases using ReactJS and related
+            ecosystem. My role was developer/tech lead; duration: almost 2 years.
             <br />
             <small>
               Customer: <b>hey.car</b>
@@ -127,10 +132,12 @@ const IndexPage = ({ data }) => (
               <a href="https://hey.car/" target="_blank" rel="noopener noreferrer">
                 hey.car
               </a>
+              <br />
+              Date: 2018 - 2021.
             </small>
           </li>
           <li>
-            Developed (in team and independently) a ReactJS app using test driven development for a e-learning startup in
+            Developed (in team and independently) a ReactJS app using test driven development for an e-learning startup in
             Berlin. <br />
             <small>
               Customer: <b>Wonderwerk.co</b>
@@ -139,20 +146,24 @@ const IndexPage = ({ data }) => (
               <a href="https://www.wonderwerk.co/" target="_blank" rel="noopener noreferrer">
                 wonderwerk.co
               </a>
+              <br />
+              Date: 2018 - 2018.
             </small>
           </li>
           <li>
-            Embeddable webshop with using ReactJS, Redux, Webpack, Mysql and Flask with a order/product management backend
-            and advanced data export functionality. <br />
+            Embeddable webshop using ReactJS, Redux, Webpack, MySQL and Flask with an order/product management backend and
+            advanced data export functionality. <br />
             <small>
               Customer: <b>Danish Ministry of Higher Education and Science.</b>
               <br />
               Url: <b>Not publicly available.</b>
+              <br />
+              Date: 2015 - 2018 (freelance work through Headnet).
             </small>
           </li>
           <li>
             Custom integration between Cartodb and Podio management tool that displays geodata on different maps. Backend
-            build using Laravel and Mysql.
+            built using Laravel and MySQL.
             <br />
             <small>
               Customer: <b>The Foundation for Environmental Education.</b>
@@ -161,10 +172,12 @@ const IndexPage = ({ data }) => (
               <a href="http://www.fee.global/" target="_blank" rel="noopener noreferrer">
                 fee.global
               </a>
+              <br />
+              Date: 2015 - 2018 (freelance work through Headnet).
             </small>
           </li>
           <li>
-            Web app for finding and viewing verdicts build using BackboneJS, Grunt, Mysql, Flask, Elasticsearch and Docker.
+            Web app for finding and viewing verdicts built using BackboneJS, Grunt, MySQL, Flask, Elasticsearch and Docker.
             <br />
             <small>
               Customer: <b>Danish Environmental Board of Appeal.</b>
@@ -173,11 +186,13 @@ const IndexPage = ({ data }) => (
               <a href="https://www.fredninger.dk/" target="_blank" rel="noopener noreferrer">
                 fredninger.dk
               </a>
+              <br />
+              Date: 2015 - 2018 (freelance work through Headnet).
             </small>
           </li>
           <li>
-            Co-developed a portal for exploring digitalized images and artifacts from the museum&apos;s collection. Build
-            using Express, ES6, Jade, Scss, Angular and Elasticsearch.
+            Co-developed a portal for exploring digitized images and artifacts from the museum&apos;s collection. Built using
+            Express, ES6, Jade, SCSS, Angular and Elasticsearch.
             <br />
             <small>
               Customer: <b>The National Museum of Denmark.</b> <br />
@@ -185,10 +200,13 @@ const IndexPage = ({ data }) => (
               <a href="https://natmus.dk/" target="_blank" rel="noopener noreferrer">
                 natmus.dk
               </a>
+              <br />
+              Date: 2015 - 2018 (freelance work through Headnet).
             </small>
           </li>
           <li>
-            Build various frontend functionality and UX combining Angular and geodata for a danish housing startup. <br />
+            Built various frontend functionality and UX combining Angular and geodata for a Danish housing startup.
+            <br />
             <small>
               Customer: <b>Bolighed</b>
               <br />
@@ -196,6 +214,8 @@ const IndexPage = ({ data }) => (
               <a href="https://bolighed.dk" target="_blank" rel="noopener noreferrer">
                 bolighed.dk
               </a>
+              <br />
+              Date: 2015 - 2018 (freelance work through Headnet).
             </small>
           </li>
         </ul>
