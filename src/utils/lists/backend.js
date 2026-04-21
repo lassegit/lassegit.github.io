@@ -33,6 +33,15 @@ const backend = [
   {
     text: 'Next.js',
   },
+  {
+    text: 'AstroJS',
+  },
+  {
+    text: 'Cloudflare/AWS',
+  },
+  {
+    text: 'Agentic Coding CLI',
+  },
 ];
 
 export default backend;

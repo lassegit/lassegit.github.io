@@ -1,4 +1,4 @@
-import { jest, pwa, react, redux, webpack } from '../../assets/svg';
+import { jest, react, redux } from '../../assets/svg';
 
 const frontend = [
   {
@@ -19,20 +19,6 @@ const frontend = [
   {
     text: 'Jest (testing)',
     icon: jest,
-  },
-  {
-    text: 'CSS-in-JS',
-  },
-  {
-    text: 'Storybook',
-  },
-  {
-    text: 'Webpack',
-    icon: webpack,
-  },
-  {
-    text: 'PWA',
-    icon: pwa,
   },
 ];
 
