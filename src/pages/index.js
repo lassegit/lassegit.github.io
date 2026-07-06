@@ -65,8 +65,8 @@ const IndexPage = ({ data }) => (
         <ul className="links">
           <li>
             <img alt="" src={mail} />{' '}
-            <a href="mailto:lassetange@gmail.com" title="Send me an email">
-              lassetange@gmail.com
+            <a href="mailto:lasse@lassetange.com" title="Send me an email">
+              lasse@lassetange.com
             </a>
           </li>
           <li>
