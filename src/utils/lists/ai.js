@@ -1,17 +1,17 @@
 export default [
   {
-    text: 'Codex CLI',
+    text: 'LLM APIs (OpenAI)',
   },
   {
-    text: 'PI',
+    text: 'RAG & vector search',
   },
   {
-    text: 'OpenAI API',
+    text: 'Prompt engineering',
   },
   {
-    text: 'RAG search',
+    text: 'AI-assisted development (Claude Code, Codex CLI)',
   },
   {
-    text: 'Vector database',
+    text: 'Applied AI product design',
   },
 ];

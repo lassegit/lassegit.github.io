@@ -1,26 +1,17 @@
 export default [
   {
-    text: 'Jest',
+    text: 'Testing (Jest, Testing Library, Playwright)',
   },
   {
-    text: 'React Testing Library',
-  },
-  {
-    text: 'Playwright',
+    text: 'Test-driven development',
   },
   {
     text: 'Storybook',
   },
   {
-    text: 'ESLint',
+    text: 'Monorepos & modern tooling (pnpm, Vite)',
   },
   {
-    text: 'Prettier',
-  },
-  {
-    text: 'pnpm',
-  },
-  {
-    text: 'Monorepo',
+    text: 'A/B testing & feature flags',
   },
 ];

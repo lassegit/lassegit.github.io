@@ -1,27 +1,18 @@
 const devops = [
   {
-    text: 'Cloudflare',
-  },
-  {
-    text: 'AWS',
+    text: 'CI/CD (GitHub Actions)',
   },
   {
     text: 'Docker',
   },
   {
-    text: 'Nginx',
+    text: 'Cloudflare & AWS',
   },
   {
-    text: 'GitHub Actions',
-  },
-  {
-    text: 'CI/CD',
+    text: 'Linux, Nginx & VPS',
   },
   {
     text: 'Git',
-  },
-  {
-    text: 'CLI / VPS',
   },
 ];
 

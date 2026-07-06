@@ -6,37 +6,19 @@ const backend = [
     icon: node,
   },
   {
-    text: 'GraphQL',
+    text: 'REST & GraphQL APIs (end-to-end typesafe)',
     icon: graphql,
   },
   {
-    text: 'tRPC',
-  },
-  {
-    text: 'Express',
-  },
-  {
-    text: 'PostgreSQL',
+    text: 'PostgreSQL, MySQL & Redis',
     icon: database,
   },
   {
-    text: 'Prisma',
+    text: 'Data modeling & ORMs (Prisma, Drizzle)',
     icon: database,
   },
   {
-    text: 'Drizzle ORM',
-    icon: database,
-  },
-  {
-    text: 'MySQL',
-    icon: database,
-  },
-  {
-    text: 'Redis',
-    icon: database,
-  },
-  {
-    text: 'REST APIs',
+    text: 'Payments & integrations (Stripe)',
   },
 ];
 

@@ -2,31 +2,24 @@ import { react, redux } from '../../assets/svg';
 
 const frontend = [
   {
-    text: 'React',
+    text: 'React & React Native',
     icon: react,
   },
   {
-    text: 'Next.js',
+    text: 'Next.js & Astro',
   },
   {
-    text: 'React Native',
-    icon: react,
+    text: 'Tailwind CSS & design systems',
   },
   {
-    text: 'Tailwind CSS',
-  },
-  {
-    text: 'shadcn/ui',
-  },
-  {
-    text: 'Redux Toolkit',
+    text: 'State management (Redux, Zustand, Nanostores)',
     icon: redux,
   },
   {
-    text: 'Zustand',
+    text: 'SSR, SSG & web performance',
   },
   {
-    text: 'Vite',
+    text: 'SEO & web analytics',
   },
 ];
 
