@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Lasse T.',
-    description: 'Full-stack tech lead and developer in Copenhagen. Writing about software, AI, and product building.',
+    description: 'Tech lead and full-stack developer in Copenhagen. Writing about software, AI, and product building.',
     siteUrl: 'https://lasse.sometechblog.com',
   },
   pathPrefix: '/',

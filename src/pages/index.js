@@ -54,14 +54,14 @@ const aiProducts = [
 
 const IndexPage = ({ data }) => (
   <div className="frontpage">
-    <Helmet title={`Full-Stack Tech Lead and Developer in Copenhagen | ${data.site.siteMetadata.title}`} />
+    <Helmet title={`Tech Lead and Full-Stack Developer in Copenhagen | ${data.site.siteMetadata.title}`} />
     <div>
       <div className="info">
         <img alt="" src={me} className="pic" />
         <h1 className="title">
           <span className="title-passive">I am</span> Lasse
         </h1>
-        <h2 className="sub">Full-Stack Tech Lead and Developer in Copenhagen</h2>
+        <h2 className="sub">Tech Lead and Full-Stack Developer in Copenhagen</h2>
         <ul className="links">
           <li>
             <img alt="" src={mail} />{' '}
@@ -87,7 +87,7 @@ const IndexPage = ({ data }) => (
       <div>
         <h2>About me</h2>
         <p>
-          Full-stack tech lead and developer with 15+ years of experience planning, architecting, and building web and mobile
+          Tech lead and full-stack developer with 15+ years of experience planning, architecting, and building web and mobile
           products. I have spent most of my career inside international startups and scale-ups in Berlin and Copenhagen —
           leading teams, owning architecture decisions, and helping early-stage companies grow into successful businesses.
         </p>
