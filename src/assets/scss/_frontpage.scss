@@ -91,6 +91,8 @@
     font-size: 12px;
     line-height: 16px;
     white-space: nowrap;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 
   .item-logo {
