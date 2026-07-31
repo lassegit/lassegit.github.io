@@ -263,6 +263,11 @@ const IndexPage = ({ data }) => (
         <p>Selected open source projects I developed and maintain:</p>
         <ul>
           <li>
+            <a href="https://github.com/rshono/rshono">rshono</a>: Minimalist web framework built on Hono, Rspack and React
+            Server Components, with an explicit API and no file-system routing conventions (
+            <a href="https://www.rshono.com/">rshono.com</a>).
+          </li>
+          <li>
             <a href="https://packagecontrol.io/packages/Sublime%20ES7%20React%20Redux%20ReactNative%20JS%20snippets">
               Popular package
             </a>{' '}
